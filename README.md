@@ -2,7 +2,6 @@
 - 블록체인 학습에 필요한 자료 및 소스코드를 모아봤습니다.(요약 포함) 
 - Pull Request 주시면 반영하도록 하겠습니다.
 - **Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**
-<iframe src="https://ghbtns.com/github-btn.html?user=yunho0130&repo=awesome-blockchain-kor&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
 #### ICO 기초 
 - 배경지식  
