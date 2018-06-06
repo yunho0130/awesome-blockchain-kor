@@ -1,18 +1,24 @@
 # awesome-blockchain-kor
 - 블록체인 학습에 필요한 자료 및 소스코드를 모아봤습니다.(요약 포함) 
 - Pull Request 주시면 반영하도록 하겠습니다.
-- Star와 Follow는 개발자를 춤추게 합니다. 
+- <span style="color:blue">**Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**</span>
 
 #### ICO 기초 
 - 배경지식  
     - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐에 대한 내용 <http://monthly-jiandson.tistory.com/9>  
-    - [컬럼] ICO(Initial Coin Offering)의 이해와 프라이빗 블록체인(Private Blockchain): 퍼블릭과 프라이빗 선택 가이드 라인(요즘에는 Permissionless vs Permissioned 라는 용어를 사용). <http://monthly-jiandson.tistory.com/13>  
+    - [컬럼] ICO(Initial Coin Offering)의 이해와 프라이빗 블록체인(Private Blockchain): 퍼블릭과 프라이빗 선택 가이드 라인(요즘에는 Permissionless vs Permissioned 라는 용어를 사용). <http://monthly-jiandson.tistory.com/13>
+    - 에어드랍, 하드포크 vs 소프트포크, 하드웨어왈렛 (추가예정)
 - 지갑생성 및 이더리움 전송
     - 메타마스크(Metamask) 사용법 01 <https://steemit.com/kr/@twinbraid/metamask-01>  
     - 메타마스크(Metamask) 사용법 02 <https://steemit.com/kr/@twinbraid/metamask-02>  
     - 메타마스크(Metamask) 사용법 03 <https://steemit.com/kr/@twinbraid/metamask-03>  
+    
+#### 이더리움 프로그래밍
+- 공식 홈페이지 제공 Solidity 소스코드  
+    - ERC20 기반 토큰 생성 코드: 최소 기능 버전 MVP(Minimum Viable Product) 
+    - ERC20 기반 토큰 생성 코드: 보다 완성된 버전(More Complete) 코드 
 
-#### ethereum-ERC20-vulnerability 요약
+#### 이더리움 ERC20 취약점(ethereum-ERC20-vulnerability) 요약
 - 이더리움 공식 홈페이지에서 제공하는 ERC20 소스코드 중 `transfer` 기능만 사용하는 경우 보안상의 결함이 발견. 
 - ERC20 코인들 중, 본 결함으로 인해 손실된 금액은 아래와 같음(2017년 12월 27일 기준)
     1. 퀀텀 QTUM, **$1,204,273** lost. [watch on Etherscan](https://etherscan.io/address/0x9a642d6b3368ddc662CA244bAdf32cDA716005BC)
