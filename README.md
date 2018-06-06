@@ -7,7 +7,7 @@
 - 배경지식  
     - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐에 대한 내용 <http://monthly-jiandson.tistory.com/9>  
     - [컬럼] ICO(Initial Coin Offering)의 이해와 프라이빗 블록체인(Private Blockchain): 퍼블릭과 프라이빗 선택 가이드 라인(요즘에는 Permissionless vs Permissioned 라는 용어를 사용). <http://monthly-jiandson.tistory.com/13>
-    - 에어드랍, 하드포크 vs 소프트포크, 하드웨어왈렛 (추가예정)
+    - 에어드랍, 하드포크 vs 소프트포크, 하드웨어왈렛 (DeveloperWorks에 추가예정)
 - 지갑생성 및 이더리움 전송
     - 메타마스크(Metamask) 사용법 01 <https://steemit.com/kr/@twinbraid/metamask-01>  
     - 메타마스크(Metamask) 사용법 02 <https://steemit.com/kr/@twinbraid/metamask-02>  
@@ -40,7 +40,11 @@
     8. 스토리지 STORJ, **$102,560** lost. [watch on Etherscan](https://etherscan.io/address/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac) 
 - `approve` + `transferFrom` 메카니즘을 사용하거나 ERC20을 사용하지 않는 것을 권고. 
 
+#### 하이퍼레저 프로그래밍 (Hello Hyperledger!)
+![](media/15282706026711.png)
 
+- IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (작성중)
+- Hyperledger Composer 사용하기 (작성중) 
 
 #### Disclaimer
 본 레파지토리는 개인의 자격으로 운영되며 IBM과 관련이 없습니다. 몇몇의 블록체인 프로젝트들과 학습자료를 모아두었습니다. This repository is consist of several experimental blockchain project and learning materials. (Not related to IBM. It's personal repository)  
