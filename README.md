@@ -12,6 +12,11 @@
     - 메타마스크(Metamask) 사용법 01 <https://steemit.com/kr/@twinbraid/metamask-01>  
     - 메타마스크(Metamask) 사용법 02 <https://steemit.com/kr/@twinbraid/metamask-02>  
     - 메타마스크(Metamask) 사용법 03 <https://steemit.com/kr/@twinbraid/metamask-03>  
+
+#### 주요 한글 백서 모음 (/Whitepapers 폴더 참고) 
+- 이오스 EOS 한글 백서(이태민님 번역) 번역본 출처: <https://github.com/bookchainio/eos-docs/blob/master/ko-KR/TechnicalWhitePaper.md> 
+- 이더리움 한글 백서 번역본 출처: <https://www.ddengle.com/traders_free/967678>
+- 비트코인 한글 백서 번역본 출처: 츄이스님 
     
 #### 이더리움 프로그래밍 Hello Solidity!
 ![](media/15282674796425.jpg)
