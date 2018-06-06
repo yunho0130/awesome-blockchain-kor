@@ -27,22 +27,7 @@
 
 #### 이더리움 ERC20 취약점(ethereum-ERC20-vulnerability) 요약
 - 이더리움 공식 홈페이지에서 제공하는 ERC20 소스코드 중 `transfer` 기능만 사용하는 경우 보안상의 결함이 발견. 
-- ERC20 코인들 중, 본 결함으로 인해 손실된 금액은 아래와 같음(2017년 12월 27일 기준)
-    1. 퀀텀 QTUM, **$1,204,273** lost. [watch on Etherscan](https://etherscan.io/address/0x9a642d6b3368ddc662CA244bAdf32cDA716005BC)
-
-    2. 이오스 EOS, **$1,015,131** lost. [watch on Etherscan](https://etherscan.io/address/0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0)
-
-    3. 골렘 GNT, **$249,627** lost. [watch on Etherscan](https://etherscan.io/address/0xa74476443119A942dE498590Fe1f2454d7D4aC0d)
-
-    4. 스토리지 STORJ, **$217,477** lost. [watch on Etherscan](https://etherscan.io/address/0xe41d2489571d322189246dafa5ebde1f4699f498)
-    
-    5. 트론 Tronix , **$201,232** lost. [watch on Etherscan](https://etherscan.io/address/0xf230b790e05390fc8295f4d3f60332c93bed42e2)
-    
-    6. 디직스다오 DGD, **$151,826** lost. [watch on Etherscan](https://etherscan.io/address/0xe0b7927c4af23765cb51314a0e0521a9645f0e2a)
-    
-    7. 오미세고 OMG, **$149,941** lost. [watch on Etherscan](https://etherscan.io/address/0xd26114cd6ee289accf82350c8d8487fedb8a0c07)
-    
-    8. 스토리지 STORJ, **$102,560** lost. [watch on Etherscan](https://etherscan.io/address/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac) 
+- ERC20 코인들 중, 본 결함으로 인해 손실된 금액은 약 300만 달러(2017년 12월 27일 기준)
 - `approve` + `transferFrom` 메카니즘을 사용하거나 ERC20을 사용하지 않는 것을 권고. 
 
 #### 하이퍼레저 프로그래밍 (Hello Hyperledger!)
