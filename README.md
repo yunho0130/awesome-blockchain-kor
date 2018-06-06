@@ -1,7 +1,8 @@
 # awesome-blockchain-kor
 - 블록체인 학습에 필요한 자료 및 소스코드를 모아봤습니다.(요약 포함) 
 - Pull Request 주시면 반영하도록 하겠습니다.
-- <span style="color:blue">**Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**</span>
+- **Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**
+<iframe src="https://ghbtns.com/github-btn.html?user=yunho0130&repo=awesome-blockchain-kor&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
 #### ICO 기초 
 - 배경지식  
@@ -13,10 +14,12 @@
     - 메타마스크(Metamask) 사용법 02 <https://steemit.com/kr/@twinbraid/metamask-02>  
     - 메타마스크(Metamask) 사용법 03 <https://steemit.com/kr/@twinbraid/metamask-03>  
     
-#### 이더리움 프로그래밍
+#### 이더리움 프로그래밍 Hello Solidity!
+![](media/15282674796425.jpg)
+
 - 공식 홈페이지 제공 Solidity 소스코드  
-    - ERC20 기반 토큰 생성 코드: 최소 기능 버전 MVP(Minimum Viable Product) 
-    - ERC20 기반 토큰 생성 코드: 보다 완성된 버전(More Complete) 코드 
+    - ERC20 기반 토큰 생성 코드: 최소 기능 버전 MVP(Minimum Viable Product) <https://github.com/yunho0130/awesome-blockchain-kor/blob/master/ethereum-token-v0.1/generate-token.sol>
+    - ERC20 기반 토큰 생성 코드: 보다 완성된 버전(More Complete) 코드 <https://github.com/yunho0130/awesome-blockchain-kor/blob/master/ethereum-token-v0.1/generate-token-complete.sol>
 
 #### 이더리움 ERC20 취약점(ethereum-ERC20-vulnerability) 요약
 - 이더리움 공식 홈페이지에서 제공하는 ERC20 소스코드 중 `transfer` 기능만 사용하는 경우 보안상의 결함이 발견. 
