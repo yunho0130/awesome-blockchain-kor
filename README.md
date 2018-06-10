@@ -33,10 +33,40 @@
 #### 하이퍼레저 프로그래밍 (Hello Hyperledger!)
 ![](media/15282706026711.png)
 
+
+
+#### 정리중 
 - IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (작성중)
 - Hyperledger Composer 사용하기 (작성중) 
+- 트러플, 테스트넷, 솔리티디, 이더리움 개발 어떤 언어로 할 것인가?, 
+- 하이퍼레져 이더리움 연동하기
+- 이오스 메인넷 프로그래밍
+- 오버플로우, 언더플로우, 대처법 safemath
+- PoW
+- PoS: 특정 시스템에서 지분을 많이 보유한 사람이 자신의 지분 가치를 하락시키는 일은 하지 않을 것이라는 것(류영훈, 2018).
+- Nothing-at-Stake 네트워크상에 두 개 이상의 포크가 있을 경우, 양쪽에 동시에 베팅하는 것. PoS의 경우 자산 증명의 한계 비용이 없기 때문에 가능한 일. 이더리움은 디포짓과 패널티를 통해 해결하려 하고 있음.
+- DPoS(Delegated Proof of Stake): 상위 20개의 노드에 권한을 위임하고, 대표자(Delegate)로 임명. 
+- PoI
+- 51%공격 (합의가로채기) 
+- 키재생성공격
+- PBTF란? 고속트랜잭션 처리를 위해 설계되어 초당 수천만 건의 트랜잭션을 처리할 수 있다. (it-chain에서 활용) <pmg.csail.mit.edu/papers/osdi99.pdf> (김용재 등, 2018)
+- 머클 트리(Merkle Tree) 구조도
+- 패스트 비잔틴 합의 (Fast Byzantine Consensus) 
+- 폐쇄형 컨소시엄 블록체인 (Consortium Blockchain): 리플, 하이퍼레져
+- 비즈니스 네트워크 아카이브 (Business Network Archive, BNA): 하이퍼레저 컴포저라는 개발툴을 통해 생성된 파일로 블록체인 망에 배포할 때 스마트 컨트랙트가 자동으로 생성. (허강욱, 2018) 
+- 하이퍼레저 장점: 컴포져라는 접근성 좋은 툴, 기존 시스템과 연동, 다양한 개발 언어 지원(Go, Node.js, Java), 데이터 백업/복구, BaaS
+- 면접 질문 리스트 
+- 온 체인 트랜잭션, 오프 체인 트랜잭션, 사이드 체인, 차일드 체인, 지불 채널, 인터체인
+블록체인 <https://steemit.com/kr-dev/@modolee/onchain-offchain>
+
+#### 국내 업체들 한글 백서 모음
+
+#### 참고문헌
+- 류영훈(2018), 스팀과 스팀잇의 세계, 마이크로 소프트웨어: 체인빅뱅, 392호
+- 김용재, 유동균, 이준범 등(2018), 나만의 프라이빗 블록체인 it-chain, 마이크로 소프트웨어: 체인빅뱅, 392호
+- 허강욱(2018), 하이퍼레저 패브릭, 마이크로 소프트웨어: 체인빅뱅, 392호
+
 
 #### Disclaimer
-본 레파지토리는 개인의 자격으로 운영되며 IBM과 관련이 없습니다. 몇몇의 블록체인 프로젝트들과 학습자료를 모아두었습니다. This repository is consist of several experimental blockchain project and learning materials. (Not related to IBM. It's personal repository)  
-
+본 레파지토리는 몇몇의 블록체인 프로젝트들과 학습자료를 모아둔 곳입니다. 개인의 자격으로 운영되며 IBM과 관련이 없습니다. 또한, 본 레파지토리에 있는 코드를 사용할 경우 발생하는 모든 종류의  문제(기술적/보안적/법률적/etc)를 책임지지 않습니다. This repository is consist of several experimental blockchain project and learning materials. Not related to IBM. It's personal repository. So I have no responsibility for using this code about all kind of problems such as technical/security/legal/etc. 
 
