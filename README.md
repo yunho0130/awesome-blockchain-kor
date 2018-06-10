@@ -3,7 +3,13 @@
 - Pull Request 주시면 반영하도록 하겠습니다.
 - **Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**
 
-#### ICO 기초 
+[입문: 일반인 개인투자자 & 교양을 위한 블록체인] (#고급)
+[중급: 비개발 현업종사자] 마케터 CEO 기획자 디자이너
+[고급: 개발 현업종사자] 개발자를 위한 실제 구현 및 이슈 
+
+
+
+## [입문: 일반인] 개인투자자 & 교양을 위한 블록체인
 - 배경지식  
     - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐에 대한 내용 <http://monthly-jiandson.tistory.com/9>  
     - [컬럼] ICO(Initial Coin Offering)의 이해와 프라이빗 블록체인(Private Blockchain): 퍼블릭과 프라이빗 선택 가이드 라인(요즘에는 Permissionless vs Permissioned 라는 용어를 사용). <http://monthly-jiandson.tistory.com/13>
@@ -13,10 +19,17 @@
     - 메타마스크(Metamask) 사용법 02 <https://steemit.com/kr/@twinbraid/metamask-02>  
     - 메타마스크(Metamask) 사용법 03 <https://steemit.com/kr/@twinbraid/metamask-03>  
 
+## [중급: 비개발 현업종사자] 마케터 CEO 기획자 디자이너
+
+
+
 #### 주요 한글 백서 모음 (/Whitepapers 폴더 참고) 
 - 이오스 EOS 한글 백서(이태민님 번역) 번역본 출처: <https://github.com/bookchainio/eos-docs/blob/master/ko-KR/TechnicalWhitePaper.md> 
 - 이더리움 한글 백서 번역본 출처: 공식 Github위키 <https://github.com/ethereum/wiki/wiki/%5BKorean%5D-White-Paper>
 - 비트코인 한글 백서 번역본 출처: 츄이스님 
+
+
+
     
 #### 이더리움 프로그래밍 Hello Solidity!
 ![](media/15282674796425.jpg)
@@ -28,17 +41,19 @@
 #### 이더리움 ERC20 취약점(ethereum-ERC20-vulnerability) 요약
 - 이더리움 공식 홈페이지에서 제공하는 ERC20 소스코드 중 `transfer` 기능만 사용하는 경우 보안상의 결함이 발견. 
 - ERC20 코인들 중, 본 결함으로 인해 손실된 금액은 약 300만 달러(2017년 12월 27일 기준)
-- `approve` + `transferFrom` 메카니즘을 사용하거나 ERC20을 사용하지 않는 것을 권고. 
+- `approve` + `transferFrom` 메카니즘만을 사용하거나 `transfer`의 보안 취약성을 보완한 뒤 사용할 것을 권고
 
 #### 하이퍼레저 프로그래밍 (Hello Hyperledger!)
 ![](media/15282706026711.png)
 
+## [고급: 개발 현업종사자] 개발자를 위한 실제 구현 및 이슈 <a id="고급"></a>
 
 
 #### 정리중 
 - IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (작성중)
 - Hyperledger Composer 사용하기 (작성중) 
-- 트러플, 테스트넷, 솔리티디, 이더리움 개발 어떤 언어로 할 것인가?, 
+- 트러플, 테스트넷, 솔리티디, 가나슈
+- 이더리움 개발 어떤 언어로 할 것인가?, 
 - 하이퍼레져 이더리움 연동하기
 - 이오스 메인넷 프로그래밍
 - 오버플로우, 언더플로우, 대처법 safemath
@@ -59,7 +74,7 @@
 - 온 체인 트랜잭션, 오프 체인 트랜잭션, 사이드 체인, 차일드 체인, 지불 채널, 인터체인
 블록체인 <https://steemit.com/kr-dev/@modolee/onchain-offchain>
 
-#### 국내 업체들 한글 백서 모음
+#### 한글 백서 모음
 
 #### 참고문헌
 - 류영훈(2018), 스팀과 스팀잇의 세계, 마이크로 소프트웨어: 체인빅뱅, 392호
