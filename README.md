@@ -3,7 +3,10 @@
 - Pull Request 주시면 반영하도록 하겠습니다.
 - **Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 ## [입문: 일반인] 개인투자자 & 교양을 위한 블록체인
 - 배경지식  
     - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐에 대한 내용 <http://monthly-jiandson.tistory.com/9>  
@@ -17,15 +20,13 @@
 ## [중급: 비개발 현업종사자] 마케터 CEO 기획자 디자이너
 
 
-
 #### 주요 한글 백서 모음 (/Whitepapers 폴더 참고) 
 - 이오스 EOS 한글 백서(이태민님 번역) 번역본 출처: <https://github.com/bookchainio/eos-docs/blob/master/ko-KR/TechnicalWhitePaper.md> 
 - 이더리움 한글 백서 번역본 출처: 공식 Github위키 <https://github.com/ethereum/wiki/wiki/%5BKorean%5D-White-Paper>
 - 비트코인 한글 백서 번역본 출처: 츄이스님 
 
+## [고급: 개발 현업종사자] 개발자를 위한 실제 구현 및 이슈 <a id="고급"></a>
 
-
-    
 #### 이더리움 프로그래밍 Hello Solidity!
 ![](media/15282674796425.jpg)
 
@@ -41,11 +42,10 @@
 #### 하이퍼레저 프로그래밍 (Hello Hyperledger!)
 ![](media/15282706026711.png)
 
-## [고급: 개발 현업종사자] 개발자를 위한 실제 구현 및 이슈 <a id="고급"></a>
-
 #### EOS 프로그래밍 
 ![](media/15286777738059.jpg)
 
+#### 그 외 개발진행중인 프로젝트
 
 #### 정리중 
 - IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (작성중)
@@ -71,6 +71,8 @@
 - 면접 질문 리스트 
 - 온 체인 트랜잭션, 오프 체인 트랜잭션, 사이드 체인, 차일드 체인, 지불 채널, 인터체인
 블록체인 <https://steemit.com/kr-dev/@modolee/onchain-offchain>
+- 자동 트레이딩 GOPAX API Doc 
+- https://steemit.com/kr/@yoon/3f8ty8
 
 #### 한글 백서 모음
 
