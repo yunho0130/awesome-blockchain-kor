@@ -1,21 +1,24 @@
 # awesome-blockchain-kor
-- 블록체인 학습에 필요한 자료 및 소스코드를 모아봤습니다.(요약 포함) 
-- Pull Request 주시면 반영하도록 하겠습니다.
+- 사람들에게 블록체인에 대한 이해도를 높이고 사기(SCAM)를 막고자 본 레파지토리를 공개했습니다. 
+- 함께 만들어가는 Repository라 생각합니다. Pull Request는 언제든지 환영합니다. 
+- 지식에 대한 접근성 향상을 위해 되도록 한글 자료를 중심으로 모았습니다. 그럼에도 불구하고, 꼭 언급해야할 자료가 영문일 경우에는 요약 설명을 추가했습니다. Pull Request를 주실 때, 이 점을 고려해주세요. 
 - **Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**
 
-<<<<<<< Updated upstream
+## Table of Contents
+[[입문: 일반인] 개인투자자 & 교양을 위한 블록체인](/## [고급: 개발 현업종사자] 개발자를 위한 실제 구현 및 이슈)
 
-=======
->>>>>>> Stashed changes
+
 ## [입문: 일반인] 개인투자자 & 교양을 위한 블록체인
 - 배경지식  
-    - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐에 대한 내용 <http://monthly-jiandson.tistory.com/9>  
-    - [컬럼] ICO(Initial Coin Offering)의 이해와 프라이빗 블록체인(Private Blockchain): 퍼블릭과 프라이빗 선택 가이드 라인(요즘에는 Permissionless vs Permissioned 라는 용어를 사용). <http://monthly-jiandson.tistory.com/13>
-    - 에어드랍, 하드포크 vs 소프트포크, 하드웨어왈렛 (DeveloperWorks에 추가예정)
+    - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐의 이해 <http://monthly-jiandson.tistory.com/9>  
+    - [컬럼] ICO(Initial Coin Offering)의 이해와 프라이빗 블록체인(Private Blockchain): 퍼블릭과 프라이빗 선택 가이드 라인(요즘에는 Permissionless vs Permissioned 라는 용어를 사용). <http://monthly-jiandson.tistory.com/13> 
+    
 - 지갑생성 및 이더리움 전송
     - 메타마스크(Metamask) 사용법 01 <https://steemit.com/kr/@twinbraid/metamask-01>  
     - 메타마스크(Metamask) 사용법 02 <https://steemit.com/kr/@twinbraid/metamask-02>  
     - 메타마스크(Metamask) 사용법 03 <https://steemit.com/kr/@twinbraid/metamask-03>  
+
+- [자동투자 및 트레이딩 봇](/#### 자동 투자를 위한 거래소 API 정리 (퀀트 트레이딩))
 
 ## [중급: 비개발 현업종사자] 마케터 CEO 기획자 디자이너
 
@@ -25,7 +28,7 @@
 - 이더리움 한글 백서 번역본 출처: 공식 Github위키 <https://github.com/ethereum/wiki/wiki/%5BKorean%5D-White-Paper>
 - 비트코인 한글 백서 번역본 출처: 츄이스님 
 
-## [고급: 개발 현업종사자] 개발자를 위한 실제 구현 및 이슈 <a id="고급"></a>
+## [고급: 개발 현업종사자] 개발자를 위한 실제 구현 및 이슈
 
 #### 이더리움 프로그래밍 Hello Solidity!
 ![](media/15282674796425.jpg)
@@ -45,9 +48,15 @@
 #### EOS 프로그래밍 
 ![](media/15286777738059.jpg)
 
+#### 자동 투자를 위한 거래소 API 정리 (퀀트 트레이딩) 
+- GOPAX API Doc <https://gopaxapi.github.io/gopax/> 고팍스가 유일하게 Github을 통해서 Python을 공식 지원하고 있습니다. 
+- 코인원 API Doc <http://doc.coinone.co.kr/>
+- 빗썸 API Doc <https://www.bithumb.com/u1/US127>
+
 #### 그 외 개발진행중인 프로젝트
 
 #### 정리중 
+- 에어드랍, 하드포크 vs 소프트포크, 하드웨어왈렛 (DeveloperWorks에 추가예정)
 - IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (작성중)
 - Hyperledger Composer 사용하기 (작성중) 
 - 트러플, 테스트넷, 솔리티디, 가나슈
@@ -71,10 +80,14 @@
 - 면접 질문 리스트 
 - 온 체인 트랜잭션, 오프 체인 트랜잭션, 사이드 체인, 차일드 체인, 지불 채널, 인터체인
 블록체인 <https://steemit.com/kr-dev/@modolee/onchain-offchain>
-- 자동 트레이딩 GOPAX API Doc 
 - https://steemit.com/kr/@yoon/3f8ty8
+- DAG, 하이콘, STON, 이그드라실, 아이콘
 
 #### 한글 백서 모음
+- EOSIS
+- 크로스체인 
+- 피블 
+
 
 #### 참고문헌
 - 류영훈(2018), 스팀과 스팀잇의 세계, 마이크로 소프트웨어: 체인빅뱅, 392호
