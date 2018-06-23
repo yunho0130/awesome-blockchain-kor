@@ -49,7 +49,7 @@
 - 내가 투자한 ICO 업체가 이더리움을 얼마나 쓰고 있나 감시하는 방법. 
     - 이더스캔 바로가기 => <https://etherscan.io/> 
     - 사용법 => <https://steemit.com/kr/@holcoin/https-etherscan-io>
-
+    
 - 거래소 해킹 시 보상 가능 여부(Alex Park, 2018) => [Alex Park님, Medium 링크](https://medium.com/hexlant/%EA%B1%B0%EB%9E%98%EC%86%8C-%ED%95%B4%ED%82%B9-%EC%8B%9C-%EB%B3%B4%EC%83%81-%EA%B0%80%EB%8A%A5-%EC%97%AC%EB%B6%80%EC%97%90-%EB%8C%80%ED%95%9C-%ED%86%A0%ED%81%B0-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%BD%94%EB%93%9C-%EB%B6%84%EC%84%9D-ad40fc35a845)
 
 ## [현업종사자] CEO, 마케터, 기획자, 디자이너, 기관 투자자
@@ -62,22 +62,21 @@
     - 요즘에는 Permissionless vs Permissioned 라는 용어도 사용.
 - [기타] 크립토 앵커(Crypto-anchors): IoT 이력 추적 기술을 블록체인과 접목 (Itworld, 2018) <http://www.itworld.co.kr/news/108616>
 
-##### 대표적인 1,2,3세대 블록체인 백서 스터디하기
+#### 대표적인 1,2,3세대 블록체인 백서 스터디하기
 | 세대 구분 | 프로젝트 명 | 백서 | 출처 |
 | :-----------: | :-----------: | :-----------: | :-----------: |
 | 3세대 | 이오스 EOS | [백서](/whitepapers/eos/TechnicalWhitePaper.md) | [이태민님 번역](https://github.com/bookchainio/eos-docs/blob/master/ko-KR/TechnicalWhitePaper.md)
 | 2세대 | 이더리움 Ethereum | [백서](/whitepapers/ethereum/ethereum-whitepaper-official-wiki.md) | [공식 Github위키](https://github.com/ethereum/wiki/wiki/%5BKorean%5D-White-Paper)
 | 1세대 | 비트코인 Bitcoin | [백서](/whitepapers/bitcoin/bitcoin_kor.pdf) | [츄이스님 번역](https://www.ddengle.com/board_free/205187) | 
 
-##### 그 외에 읽어볼 만한 백서 @작업중
+#### 그 외에 읽어볼 만한 백서 
+- 추가나 업데이트를 원하시면 Pull Request 주세요.
+
 | 프로젝트 명 | URL | 요약 | 백서 | 출처 |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| 아이콘 ICON | <https://icon.foundation> | 루프체인 기반 프라이빗 블록체인, 높은 거래처리(TPS) 보장 | [백서](/whitepapers/icon/ICON-Whitepaper-KO-Draft.pdf) | 공식  |
-| 스팀 |  |  |  |
-| 에이다 |  |  |  |
-| 스텔라루멘 |  |  |  |
-| 리플 |  |  |  |
-| 트론 |  |  |  |
+| 아이콘 | <https://icon.foundation> | 루프체인 기반 프라이빗 블록체인, 높은 거래처리(TPS) 보장 | [백서](/whitepapers/icon/ICON-Whitepaper-KO-Draft.pdf) | 공식  |
+| 스팀 | <https://steem.io/> | 블록체인 기반의 블로깅 플랫폼 | [백서](https://github.com/taeminlee/blockchain.eos/blob/master/20170901%20steem%20white%20paper.md) | 이태민님 github |
+| 에이다 | <https://www.cardano.org/en/home/> | 상호 검증가능한 프로토콜을 통한 보안성 강화 |   [백서](/whitepapers/ada/WhyCardanoKR.pdf) | 공식 |
 
 #### ICO 진행하기 
 - 스타트업의 일반적 ICO 프로세스 => <http://verticalplatform.kr/archives/9772>
@@ -87,19 +86,18 @@
 
 ## [개발자] 개발자를 위한 실제 구현 및 이슈
 
-#### 주로 사용되는 개념 @작업중
-* 컨센서스 알고리즘 Consensus Algorithm
+#### 주로 사용되는 개념들 
+* [블록체인 기초개념] 컨센서스(Consensus)란 무엇인가? - PoW/PoS/DPoS 알아보기 => <https://steemit.com/kr/@donekim/consensus-pow-pos-dpos> 
+    - PoW: 컴퓨팅 파워를 통해 블록체인 네트워크에 전송된 암호화된 거래정보를 푼 뒤, 새로운 블록을 체인에 연결하는 작업증명 방식
     - PoS: 특정 시스템에서 지분을 많이 보유한 사람이 자신의 지분 가치를 하락시키는 일은 하지 않을 것이라 가정하에 진행되는 컨센서스 알고리즘(류영훈, 2018).
-    - DPoS(Delegated Proof of Stake): 상위 21개의 노드에 권한을 위임하고, 대표자(Delegate)로 임명. 
-    - Nothing-at-Stake: 네트워크상에 두 개 이상의 포크가 있을 경우, 양쪽에 동시에 베팅하는 것. PoS의 경우 자산 증명의 한계 비용이 없기 때문에 가능한 일. 이더리움은 디포짓과 패널티를 통해 해결하려 하고 있음.
-    - DAG
-    - PoI
-- 머클 트리(Merkle Tree) 구조 
-- Geth
-- PoW
-- 51%공격 (합의가로채기) 
-- 패스트 비잔틴 합의 (Fast Byzantine Consensus) 
-- 폐쇄형 컨소시엄 블록체인 (Consortium Blockchain): 리플, 하이퍼레져
+    - DPoS: 상위 노드에 권한을 위임하고, 위임받은 노드들이 거래를 검증. 
+* [블록체인 기초개념] 컨센서스(Consensus)란 무엇인가? - 비잔틴 장군문제(BGP)란? => <https://steemkr.com/kr/@donekim/consensus-bgp>    
+- 넴(NEM)을 통한 PoI이해  => <https://tokenpost.kr/terms/6867>
+- 방향성 비순환 그래프 DAG(Directed Acyclic Graph) IOTA 등 => <https://steemkr.com/kr/@sjchoi/adk-3-0-dag-directed-acyclic-graph>
+- 영지식 증명(Zero-Knowledge Proof): 익명성 코인 Z-Cash 등 => <https://www.ventascorp.com/news/?mod=document&uid=38>
+- 세그윗(Segwit) => <https://www.ventascorp.com/news/?mod=document&uid=21>
+- 머클 트리(Merkle Tree), 풀노드(Full Node), 라이트 노드(Light Node) => <https://steemit.com/kr/@jsralph/merkle-trees>
+- 51%공격: 채굴 노드가 특정인/단체에게 51%가 넘어가는 순간 채굴로 유지되는 블록체인은 위험해짐 => <https://steemit.com/kr-join/@jsralph/51>
 
 #### 이더리움 프로그래밍 (Solidity)
 ![](media/15282674796425.jpg)
@@ -125,6 +123,7 @@
     - 기본적인 Overflow/Underflow 취약점 (safemath 사용 권장)
         - 이더리움 공식 홈페이지에서 제공하는 ERC20 소스코드 중 `transfer` 기능에 사용하는 경우 Overflow/Underflow 결함이 발견. 이로 인해 ERC20 코인들 중, 본 결함으로 인해 손실된 금액은 약 300만 달러(2017년 12월 27일 기준). 
         - [SMT(SmartMesh) 토큰 무한생성 해킹 설명과 대비책 (출처: 온더)](https://medium.com/onther-tech/smt-%ED%86%A0%ED%81%B0-%EC%9D%B4%EC%A4%91%EC%A7%80%EB%B6%88-%ED%95%B4%ED%82%B9-%EC%84%A4%EB%AA%85%EA%B3%BC-%EB%8C%80%EB%B9%84%EC%B1%85-8bef3f41bcd2)
+    - Nothing-at-Stake: 네트워크상에 두 개 이상의 포크가 있을 경우, 양쪽에 동시에 베팅하는 것. PoS의 경우 자산 증명의 한계 비용이 없기 때문에 가능한 일. 이더리움은 디포짓과 패널티를 통해 해결하려 하고 있음.
     - [스마트 컨트렉트 보안: 6개의 솔리디티 취약점 및 그에 대한 대비책 (파트 1)](https://medium.com/@ihcho131313/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%A0%89%ED%8A%B8-%EB%B3%B4%EC%95%88-6%EA%B0%9C%EC%9D%98-%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B0%8F-%EA%B7%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8C%80%EB%B9%84%EC%B1%85-%ED%8C%8C%ED%8A%B8-1-f4f32d19a558) 
     - 그 외의 취약점에 대한 레퍼런스 (출처: 온더) => <https://github.com/Onther-Tech/auditing-reference>
     - [금융권 도입시 보안 고려사항, 출처: 금융보안원](media/%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%86%A8%E1%84%8E%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%87%E1%85%A9%E1%84%8B%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%A9%E1%84%85%E1%85%A7%E1%84%89%E1%85%A1%E1%84%92%E1%85%A1%E1%86%BC_vFN.pdf)
@@ -144,13 +143,13 @@
 * 비즈니스 네트워크 아카이브 (Business Network Archive, BNA)
     - 하이퍼레저 컴포저라는 개발툴을 통해 생성된 파일로 블록체인 망에 배포할 때 스마트 컨트랙트가 자동으로 생성(허강욱, 2018).
 * 하이퍼레저 컴포저 - 스마트 컨트랙트 
- - [1단계: 한글 Readme.md](/developerworks/BlockchainSmartContractTrading-CompositeJourney-master/README-ko.md)
+    - [1단계: 한글 Readme.md](/developerworks/BlockchainSmartContractTrading-CompositeJourney-master/README-ko.md)
 * 하이퍼레저 컴포저 - 상품 경매 네트워크 
- - [2단계: 한글 Readme.md](/developerworks/BlockchainNetwork-CompositeJourney-master/README-ko.md)
+    - [2단계: 한글 Readme.md](/developerworks/BlockchainNetwork-CompositeJourney-master/README-ko.md)
 * 하이퍼레져 패브릭 Python SDK => [fabric-sdk-py-master](/hyperledger/fabric-sdk-py-master/)
-- IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (직접 작성중)
-- Hyperledger Composer 사용하기 (직접 작성중) 
-- 하이퍼레져와 이더리움 연동 (직접 작성중) 
+- IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (DeveloperWorks 작성 예정)
+- Hyperledger Composer 사용하기 (DeveloperWorks 작성 예정)
+- 하이퍼레져와 이더리움 연동 (DeveloperWorks 작성 예정)
 
 #### 자동 투자를 위한 거래소 API와 알고리즘 트레이딩 (퀀트 트레이딩) 
 - GOPAX API Doc <https://gopaxapi.github.io/gopax/> 고팍스가 유일하게 Github을 통해서 Python을 공식 지원하고 있습니다. 
@@ -173,5 +172,4 @@
 #### Disclaimer
 - 본 레파지토리는 몇몇의 블록체인 프로젝트들과 학습자료를 모아둔 곳입니다. 개인의 자격으로 운영되며 IBM과 관련이 없습니다. 또한, 본 레파지토리에 있는 코드를 사용할 경우 발생하는 모든 종류의  문제(기술적/보안적/법률적/etc)를 책임지지 않습니다. This repository is consist of several experimental blockchain project and learning materials. Not related to IBM. It's personal repository. So I have no responsibility for using this code about all kind of problems such as technical/security/legal/etc. 
 
-- 본 레파지토리에 링크를 원하지 않는 분께서는 <yunho.maeng.dc@gmail.com> 으로 연락주세요
 
