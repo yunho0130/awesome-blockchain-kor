@@ -80,7 +80,7 @@
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | 아이콘 | <https://icon.foundation> | 루프체인 기반 프라이빗 블록체인, 높은 거래처리(TPS) 보장 | [백서](/whitepapers/icon/ICON-Whitepaper-KO-Draft.pdf) | 공식  |
 | 스팀 | <https://steem.io/> | 블록체인 기반의 블로깅 플랫폼 | [백서](https://github.com/taeminlee/blockchain.eos/blob/master/20170901%20steem%20white%20paper.md) | 이태민님 github |
-| 에이다 | <https://www.cardano.org/en/home/> | 상호 검증가능한 프로토콜을 통한 보안성 강화 |   [백서](/whitepapers/ada/WhyCardanoKR.pdf) | 공식 |
+| 에이다 | <https://www.cardano.org/> | 상호 검증가능한 프로토콜을 통한 보안성 강화 |   [백서](/whitepapers/ada/WhyCardanoKR.pdf) | 공식 |
 
 #### ICO 진행하기 
 - 스타트업의 일반적 ICO 프로세스 => <http://verticalplatform.kr/archives/9772>
@@ -146,10 +146,8 @@
     - 컴포져라는 접근성 좋은 툴, 기존 시스템과의 연동성, 다양한 개발 언어 지원(Go, Node.js, Java), 데이터 백업/복구, BaaS(Blockchain as a Service)로 빠른 개발 가능.
 * 비즈니스 네트워크 아카이브 (Business Network Archive, BNA)
     - 하이퍼레저 컴포저라는 개발툴을 통해 생성된 파일로 블록체인 망에 배포할 때 스마트 컨트랙트가 자동으로 생성(허강욱, 2018).
-* 하이퍼레저 컴포저 - 스마트 컨트랙트 
-    - [1단계: 한글 Readme.md](/developerworks/BlockchainSmartContractTrading-CompositeJourney-master/README-ko.md)
-* 하이퍼레저 컴포저 - 상품 경매 네트워크 
-    - [2단계: 한글 Readme.md](/developerworks/BlockchainNetwork-CompositeJourney-master/README-ko.md)
+* 하이퍼레저 컴포저 - 스마트 컨트랙트 => [1단계: 한글 Readme.md](/developerworks/BlockchainSmartContractTrading-CompositeJourney-master/README-ko.md)
+* 하이퍼레저 컴포저 - 상품 경매 네트워크 => [2단계: 한글 Readme.md](/developerworks/BlockchainNetwork-CompositeJourney-master/README-ko.md)
 * 하이퍼레져 패브릭 Python SDK => [fabric-sdk-py-master](/hyperledger/fabric-sdk-py-master/)
 - IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (DeveloperWorks 작성 예정)
 - Hyperledger Composer 사용하기 (DeveloperWorks 작성 예정)
