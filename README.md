@@ -78,7 +78,7 @@
 
 | 프로젝트 명 | URL | 요약 | 백서 | 출처 |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| 아이콘 | <https://icon.foundation> | 루프체인 기반 프라이빗 블록체인, 높은 거래처리(TPS) 보장 | [백서](/whitepapers/icon/ICON-Whitepaper-KO-Draft.pdf) | 공식  |
+| 아이콘 | <https://icon.foundation> | 루프체인 기반 높은 TPS의 프라이빗 블록체인 | [백서](/whitepapers/icon/ICON-Whitepaper-KO-Draft.pdf) | 공식  |
 | 스팀 | <https://steem.io/> | 블록체인 기반의 블로깅 플랫폼 | [백서](https://github.com/taeminlee/blockchain.eos/blob/master/20170901%20steem%20white%20paper.md) | 이태민님 github |
 | 에이다 | <https://www.cardano.org/> | 상호 검증가능한 프로토콜을 통한 보안성 강화 |   [백서](/whitepapers/ada/WhyCardanoKR.pdf) | 공식 |
 
