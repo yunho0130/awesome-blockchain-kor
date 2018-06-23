@@ -1,0 +1,72 @@
+/**
+/**
+ * Defines a data model for a product auction
+ */
+namespace org.acme.product.auction
+
+enum ListingState {
+  o FOR_SALE
+  o RESERVE_NOT_MET
+  o SOLD
+}
+
+asset Product identified by productId {
+  o String productId
+  o String description
+  --> User owner
+}
+
+asset ProductListing identified by listingId {
+  o String listingId
+  o Double reservePrice
+  o ListingState state
+  o Offer[] offers optional
+  --> Product product
+}
+
+abstract participant User identified by email {
+  o String email
+  o Double balance
+  o Product[] products
+}
+
+/**
+ * A Seller participant
+ */
+participant Seller extends User {
+  o String organisation
+}
+
+/**
+ * A Member participant
+ */
+participant Member extends User {
+  o String firstName
+  o String lastName
+}
+
+/**
+ * Transactions performed on network
+ */
+
+transaction Offer {
+  o Double bidPrice
+  --> ProductListing listing
+  --> User member
+}
+
+transaction CloseBidding {
+  --> ProductListing listing
+}
+
+transaction StartBidding {
+  o String listingId
+  o Double reservePrice
+  --> Product product
+}
+
+transaction AddProduct {
+  o String productId
+  o String description
+  --> Seller owner
+}

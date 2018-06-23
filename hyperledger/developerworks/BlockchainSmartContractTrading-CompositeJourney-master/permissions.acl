@@ -1,0 +1,141 @@
+/**
+ * Access Control List for the bidding network.
+ */
+
+ rule MembersCanViewALLData {
+     description: "Allow all participants read access to all resources"
+     participant(m): "org.acme.product.auction.User"
+     operation: READ
+     resource(v): "org.acme.product.auction.*"
+     condition: (v.getIdentifier() == m.getIdentifier())
+     action: ALLOW
+ }
+
+ rule SellerCanViewMemberData {
+     description: "Allow all participants read access to all resources"
+     participant: "org.acme.product.auction.Seller"
+     operation: READ
+     resource: "org.acme.product.auction.Member"
+     action: ALLOW
+ }
+
+ rule SellerCanUpdateData {
+     description: "Allow all seller access to all resources"
+     participant(m): "org.acme.product.auction.Seller"
+     operation: ALL
+     resource(v): "org.acme.product.auction.Seller"
+     condition: (v.getIdentifier() == m.getIdentifier())
+     action: ALLOW
+ }
+
+rule ProductView {
+    description: "Allow Users all access to their products"
+    participant: "org.acme.product.auction.User"
+    operation: READ
+    resource: "org.acme.product.auction.Product"
+    action: ALLOW
+}
+
+rule ProductAccess {
+    description: "Allow Users all access to their products"
+    participant(m): "org.acme.product.auction.User"
+    operation: ALL
+    resource(v): "org.acme.product.auction.Product"
+    condition: (v.owner.getIdentifier() == m.getIdentifier())
+    action: ALLOW
+}
+
+rule ProductListingView {
+    description: "Allow the owner of a product total access to their listing"
+    participant: "org.acme.product.auction.User"
+    operation: READ
+    resource: "org.acme.product.auction.ProductListing"
+    action: ALLOW
+}
+
+rule ProductListingOwner {
+    description: "Allow the owner of a product total access to their listing"
+    participant(m): "org.acme.product.auction.User"
+    operation: ALL
+    resource(v): "org.acme.product.auction.ProductListing"
+    condition: (v.product.owner.getIdentifier() == m.getIdentifier())
+    action: ALLOW
+}
+
+rule AddProduct{
+    description: "Allow Sellers to add new product"
+    participant(m): "org.acme.product.auction.Seller"
+    operation: CREATE
+    resource(v): "org.acme.product.auction.AddProduct"
+    condition: (v.owner.getIdentifier() == m.getIdentifier())
+    action: ALLOW
+}
+
+rule MakeOffer{
+      description: "Allow members to bid for the product"
+      participant(m): "org.acme.product.auction.User"
+      operation: CREATE
+      resource(v): "org.acme.product.auction.Offer"
+      condition: (v.member.getIdentifier() == m.getIdentifier())
+      action: ALLOW
+}
+
+rule MembersCanUpdateProductListing {
+    description: "Allow the members to update their bid for the listing"
+    participant: "org.acme.product.auction.User"
+    operation: UPDATE
+    resource: "org.acme.product.auction.ProductListing"
+    action: ALLOW
+}
+
+rule StartBiddingProcessTransaction {
+     description: "Allow owner of product to start the bidding"
+     participant(m): "org.acme.product.auction.User"
+     operation: CREATE
+     resource(v): "org.acme.product.auction.StartBidding"
+     condition: (v.product.owner.getIdentifier() == m.getIdentifier())
+     action: ALLOW
+ }
+
+ rule CloseBiddingProcessTransaction {
+     description: "Allow owner of product to close the bidding"
+     participant(m): "org.acme.product.auction.User"
+     operation: CREATE
+     resource(v): "org.acme.product.auction.CloseBidding"
+     condition: (v.listing.product.owner.getIdentifier() == m.getIdentifier())
+     action: ALLOW
+ }
+
+rule CloseBiddingProcessTransactionUpdate {
+      description: "Allow members to bid for the product"
+      participant(m): "org.acme.product.auction.User"
+      operation: UPDATE
+      resource(v): "org.acme.product.auction.User"
+      transaction(tx): "org.acme.product.auction.CloseBidding"
+      condition: (tx.listing.product.owner.getIdentifier() == m.getIdentifier())
+      action: ALLOW
+}
+
+rule SystemACL {
+  description:  "System ACL to permit all access"
+  participant: "org.hyperledger.composer.system.Participant"
+  operation: ALL
+  resource: "org.hyperledger.composer.system.**"
+  action: ALLOW
+}
+
+rule NetworkAdminUser {
+    description: "Grant business network administrators full access to user resources"
+    participant: "org.hyperledger.composer.system.NetworkAdmin"
+    operation: ALL
+    resource: "**"
+    action: ALLOW
+}
+
+rule NetworkAdminSystem {
+    description: "Grant business network administrators full access to system resources"
+    participant: "org.hyperledger.composer.system.NetworkAdmin"
+    operation: ALL
+    resource: "org.hyperledger.composer.system.**"
+    action: ALLOW
+}

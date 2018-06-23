@@ -1,0 +1,27 @@
+{
+  "name": "product-auction",
+  "version": "0.0.1",
+  "description": "Sample product auction network",
+  "scripts": {
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/product-auction.bna",
+    "test": "nyc mocha -t 0 test/*.js"
+  },
+  "author": "Admin",
+  "email": "admin@example.org",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "browserfs": "latest",
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "composer-cli": "^0.19.5",
+    "composer-common": "^0.19.5",
+    "composer-admin": "^0.19.5",
+    "composer-client": "^0.19.5",
+    "composer-connector-embedded": "^0.19.5",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest",
+    "nyc": "latest"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "my-network",
+  "version": "0.0.1",
+  "description": "Sample Trade Network",
+  "scripts": {
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/my-network.bna",
+    "test": "mocha --recursive"
+  },
+  "author": "Hyperledger",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "browserfs": "latest",
+    "chai": "latest",
+    "composer-admin": "^0.14.3",
+    "composer-client": "^0.14.3",
+    "composer-connector-embedded": "^0.14.3",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  }
+}
