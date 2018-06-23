@@ -1,6 +1,6 @@
-## Awesome-blockchain-kor
+## Awesome-blockchain-kor 모두를 위한 블록체인
 - 사람들에게 블록체인에 대한 이해도를 높이고 사기(SCAM)를 막고자 본 레파지토리를 공개했습니다. 
-- 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 Issue로 Open해두었습니다. Pull Request는 언제든지 환영합니다. (상품이 기다리고 있어요 ) 
+- 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 [Project]탭에 작성해두었습니다. Pull Request는 언제든지 환영합니다. 
 - 지식에 대한 접근성 향상을 위해 되도록 한글 자료를 중심으로 모았습니다. 그럼에도 불구하고, 꼭 언급해야할 자료가 영문일 경우에는 요약 설명을 추가했습니다. Pull Request를 주실 때, 이 점을 고려해주세요. 
 - **Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**
 
@@ -20,9 +20,10 @@
     - <https://steemit.com/cryptocurrency/@andrewdoyon/whitelist-kyc-ico>
     - 실제 참가 가이드 (모스랜드) => <https://brunch.co.kr/@rrblog/34>
 - 지갑생성 및 이더리움 전송
-    - 메타마스크(Metamask) 사용법 01 => <https://steemit.com/kr/@twinbraid/metamask-01>  
-    - 메타마스크(Metamask) 사용법 02 => <https://steemit.com/kr/@twinbraid/metamask-02>  
-    - 메타마스크(Metamask) 사용법 03 => <https://steemit.com/kr/@twinbraid/metamask-03>
+    - 메타마스크(Metamask) 사용법 1,2,3
+        - <https://steemit.com/kr/@twinbraid/metamask-01>  
+        - <https://steemit.com/kr/@twinbraid/metamask-02>  
+        - <https://steemit.com/kr/@twinbraid/metamask-03>
 - 비트코인 거래 수수료 => <https://steemit.com/kr/@twinbraid/fee-rate>
 - 이더리움 거래시 발생하는 GAS
     - GAS Limit, Block GAS Limit, GAS Price, Total fee개념잡기 => <https://steemit.com/kr/@jinkim/gas-gas-limit-block-gas-limit-gas-price-total-fee>
