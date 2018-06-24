@@ -13,6 +13,9 @@
 [개발자] 개발자를 위한 실제 구현 및 이슈
 
 ## [일반인] 개인투자자 & 교양을 위한 블록체인
+![](media/15298083249681.jpg)
+> 출처: Unsplash (Free use)
+
 #### 배경지식  
 - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐의 이해 => [reading-blockchain-via-desire](media/reading-blockchain-via-desire.md)
     
@@ -57,7 +60,8 @@
 - 거래소 해킹 시 보상 가능 여부(Alex Park, 2018) => [Alex Park님, Medium 링크](https://medium.com/hexlant/%EA%B1%B0%EB%9E%98%EC%86%8C-%ED%95%B4%ED%82%B9-%EC%8B%9C-%EB%B3%B4%EC%83%81-%EA%B0%80%EB%8A%A5-%EC%97%AC%EB%B6%80%EC%97%90-%EB%8C%80%ED%95%9C-%ED%86%A0%ED%81%B0-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%BD%94%EB%93%9C-%EB%B6%84%EC%84%9D-ad40fc35a845)
 
 ## [현업종사자] CEO, 마케터, 기획자, 디자이너, 기관 투자자
-
+![](media/15298087942908.jpg)
+> (출처: pexels) 
 #### 백서 작성하기 
 - 블록체인 생태계 플레이어(Player)들 간의 역할 지도: 비즈니스 모델 및 생태계 이해 => <http://verticalplatform.kr/archives/10015> 
 - ICO 트릴레마(ICO Trillema)
