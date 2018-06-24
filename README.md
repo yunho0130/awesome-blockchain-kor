@@ -18,7 +18,7 @@
 
 #### 배경지식  
 - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐의 이해 => [reading-blockchain-via-desire](media/reading-blockchain-via-desire.md)
-    
+- DAOs, DACs, DAs and More: An Incomplete Terminology Guide 한글번역<https://atomrigs.blogspot.com/2015/02/dao-dac.html>    
 #### ICO 참여하기 
 - 진행중인 ICO 찾아보기 => <https://steemkr.com/coinkorea/@tyami/3-ico-1-ico>
 - 블록체인 관련 기본 사이트 <https://steemit.com/kr/@yoon/3f8ty8>
@@ -127,6 +127,8 @@
     - <https://medium.com/dnext-post/solidity-tutorial-4-7a048c76d8e4>
     - <https://medium.com/dnext-post/solidity-tutorial-5-85dfe51dcd54>
     - <https://medium.com/dnext-post/solidity-tutorial-6-543bd342d928>
+    
+* Solidity의 재밌는 학습을 위한 사이트 CryptoZombie <https://cryptozombies.io/ko/>
 
 * 이더리움 ERC20 취약점(ethereum-ERC20-vulnerability)
     - 기본적인 Overflow/Underflow 취약점 (safemath 사용 권장)
@@ -176,6 +178,7 @@
 #### Contributors 
 
 - 홍승환 님(harrydrippin) 
+- 안재열 님(jb7959)
 
 
 #### 맹개발 <http://maengdev.tistory.com/166>
