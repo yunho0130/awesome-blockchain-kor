@@ -103,6 +103,7 @@
 - 넴(NEM)을 통한 PoI이해  => <https://tokenpost.kr/terms/6867>
 - 방향성 비순환 그래프 DAG(Directed Acyclic Graph) IOTA 등 => <https://steemkr.com/kr/@sjchoi/adk-3-0-dag-directed-acyclic-graph>
 - 영지식 증명(Zero-Knowledge Proof): 익명성 코인 Z-Cash 등 => <https://www.ventascorp.com/news/?mod=document&uid=38>
+- 토큰 소각 '토큰 디자인 패턴 시리즈 #3 :: Means of Exchange의 Burn & Mint 패턴' => [Medium 링크](https://medium.com/@chajesse/%ED%86%A0%ED%81%B0-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%8B%9C%EB%A6%AC%EC%A6%88-3-means-of-exchange%EC%9D%98-burn-mint-%ED%8C%A8%ED%84%B4-88663d3f7cc)
 - 세그윗(Segwit) => <https://www.ventascorp.com/news/?mod=document&uid=21>
 - 머클 트리(Merkle Tree), 풀노드(Full Node), 라이트 노드(Light Node) => <https://steemit.com/kr/@jsralph/merkle-trees>
 - 51%공격: 채굴 노드가 특정인/단체에게 51%가 넘어가는 순간 채굴로 유지되는 블록체인은 위험해짐 => <https://steemit.com/kr-join/@jsralph/51>
