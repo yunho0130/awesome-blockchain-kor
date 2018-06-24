@@ -17,8 +17,7 @@
 > 출처: Unsplash (Free use)
 
 #### 배경지식  
-- [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐의 이해 => [reading-blockchain-via-desire](media/reading-blockchain-via-desire.md)
-- DAOs, DACs, DAs and More: An Incomplete Terminology Guide 한글번역<https://atomrigs.blogspot.com/2015/02/dao-dac.html>    
+- [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐의 이해 => [reading-blockchain-via-desire](media/reading-blockchain-via-desire.md)    
 #### ICO 참여하기 
 - 진행중인 ICO 찾아보기 => <https://steemkr.com/coinkorea/@tyami/3-ico-1-ico>
 - 블록체인 관련 기본 사이트 <https://steemit.com/kr/@yoon/3f8ty8>
@@ -116,6 +115,7 @@
  <https://steemit.com/ethereum/@sigmoid/4mtmow>
 * 이더리움 주석 한글화 프로젝트 <https://github.com/NAKsir-melody/go-ethereum>
 * 이더리움 분석기 <https://docs.google.com/presentation/d/1IEoHhCP83uEQLf3e5IrwVUn6gTZXIeJ8xzPzd1XcXvQ/edit#slide=id.p5> 
+* 이더리움 창시자, 비탈릭 부테린이 작성한 용어 가이드 DAOs, DACs, DAs and More: An Incomplete Terminology Guide 한글번역 => <https://atomrigs.blogspot.com/2015/02/dao-dac.html>
 * 공식 홈페이지 제공 Solidity 소스코드  
     - ERC20 기반 토큰 생성 코드: 최소 기능 버전 MVP(Minimum Viable Product) => <https://github.com/yunho0130/awesome-blockchain-kor/blob/master/ethereum-token-v0.1/generate-token.sol>
     - ERC20 기반 토큰 생성 코드: 보다 완성된 버전(More Complete) 코드 => <https://github.com/yunho0130/awesome-blockchain-kor/blob/master/ethereum-token-v0.1/generate-token-complete.sol>
@@ -177,8 +177,8 @@
 
 #### Contributors 
 
-- 홍승환 님(harrydrippin) 
-- 안재열 님(jb7959)
+- 홍승환 님 (harrydrippin) 
+- 안재열 님 (jb7959)
 
 
 #### 맹개발 <http://maengdev.tistory.com/166>
