@@ -18,7 +18,7 @@ ICO를 이해하기 위해선 IPO를 먼저 이해해야 한다. IPO(Initial Pub
 
 
 <표 1> 각 국가별 ICO 규제 상황(J Li, 2018)
-![](media/15282588667303.jpg)
+![각 국가별 ICO 규제 상황(J Li, 2018)](ico-prohibition.png)
 
 
 
@@ -71,7 +71,7 @@ ICO를 이해하기 위해선 IPO를 먼저 이해해야 한다. IPO(Initial Pub
 
 
 
-![](media/15282588839030.jpg)
+![정보 증명(Proof of Information) 알고리즘의 예시(Kuo, 2018)](proof-of-information-algorithm.png)
 <그림 1> 정보 증명(Proof of Information) 알고리즘의 예시(Kuo, 2018)
 
 

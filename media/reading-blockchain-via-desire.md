@@ -17,7 +17,7 @@
 
 
 
-![](media/15282589978495.jpg)
+![경제성장과 신용(Dalio, 2012)](economic-growth-and-credit.png)
 그림 1. 경제성장과 신용(Dalio, 2012)
 
  
@@ -37,7 +37,7 @@
 
 
 
-![](media/15282590063548.jpg)
+![블록체인 구조(Zheng, 2017)](blockchain-structure.png)
 그림 2. 블록체인 구조(Zheng, 2017)
 
  
