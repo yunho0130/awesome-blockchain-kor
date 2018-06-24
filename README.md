@@ -1,6 +1,6 @@
 ## Awesome-blockchain-kor 모두를 위한 블록체인
 - 사람들에게 블록체인에 대한 이해도를 높이고 사기(SCAM)를 막고자 본 레파지토리를 공개했습니다. 
-- 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 [Project]탭에 작성해두었습니다. Pull Request는 언제든지 환영합니다. 
+- 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 [Project](https://github.com/yunho0130/awesome-blockchain-kor/projects/1)탭에 작성해두었습니다. Pull Request는 언제든지 환영합니다. 
 - 지식에 대한 접근성 향상을 위해 되도록 한글 자료를 중심으로 모았습니다. 그럼에도 불구하고, 꼭 언급해야할 자료가 영문일 경우에는 요약 설명을 추가했습니다. Pull Request를 주실 때, 이 점을 고려해주세요. 
 - **Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**
 
@@ -171,6 +171,11 @@
 - 류영훈(2018), 스팀과 스팀잇의 세계, 마이크로 소프트웨어: 체인빅뱅, 392호
 - 김용재, 유동균, 이준범 등(2018), 나만의 프라이빗 블록체인 it-chain, 마이크로 소프트웨어: 체인빅뱅, 392호
 - 허강욱(2018), 하이퍼레저 패브릭, 마이크로 소프트웨어: 체인빅뱅, 392호
+
+#### Contributors 
+
+- 홍승환 님(harrydrippin) 
+
 
 #### 맹개발 <http://maengdev.tistory.com/166>
 > 현재 IBM Watson Cognitive 엔지니어로 근무하고 있으며, 연세대학교 정보대학원에서 비즈니스 빅데이터 분석 석사과정을 전공했다. California에서 실시된 AutoDevBot 해커톤에서 비트코인 환율 체커를 안드로이드와 iOS용으로 제작하여 준우승하였으며, 카네기멜론 아시아 STEM Academy와 중앙대학교에서 Python을 강의했다. SK C&C, 한국과학기술정보연구원(KISTI), 한국연구재단(NRF), DBpia 등에서 프로젝트를 수행하였으며, 오픈소스 활동으로 Apache Zepplin, 양자컴퓨팅 Python SDK인 QISKIT에 기여했다. 최근에는 하이퍼레져와 ERC20간의 연동에 관심이 많다. 
