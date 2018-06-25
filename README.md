@@ -6,8 +6,6 @@
 
 ## 목차 Table of Contents
 
-[TOC] @작업중
-
 >[일반인] 개인투자자 & 교양을 위한 블록체인  
 [현업종사자] CEO, 마케터, 기획자, 디자이너, 기관 투자자  
 [개발자] 개발자를 위한 실제 구현 및 이슈
@@ -161,14 +159,15 @@
 - 하이퍼레져와 이더리움 연동 (DeveloperWorks 작성 예정)
 
 #### 자동 투자를 위한 거래소 API와 알고리즘 트레이딩 (퀀트 트레이딩) 
-- GOPAX API Doc <https://gopaxapi.github.io/gopax/> 고팍스가 유일하게 Github을 통해서 Python을 공식 지원하고 있습니다. 
-- 코인원 API Doc <http://doc.coinone.co.kr/>
+- 업비트 API Doc <https://docs.upbit.com/>
+    - ubci R 패키지 <https://cran.r-project.org/web/packages/ubci/index.html>
 - 빗썸 API Doc <https://www.bithumb.com/u1/US127>
 - 코빗 API Doc <https://apidocs.korbit.co.kr/ko/>
     - python 패키지 <https://github.com/HoonJin/korbit-python>
     - php code <https://github.com/yks118/Korbit-api-php>
-- 업비트 API Doc <https://docs.upbit.com/>
-    - ubci R 패키지 <https://cran.r-project.org/web/packages/ubci/index.html>
+- GOPAX API Doc <https://gopaxapi.github.io/gopax/>
+- 코인원 API Doc <http://doc.coinone.co.kr/>
+- 해외 거의 모든 거래소 Python 트레이딩 라이브러리 (영문) => [Readme.md](/quant-trading/ccxt-master/README.md)
 - 파이썬으로 배우는 알고리즘 트레이딩 <https://wikidocs.net/book/110>
 
 #### 참고문헌 및 자료 @작업중
@@ -184,6 +183,7 @@
 
 - 홍승환 님 (harrydrippin) 
 - 안재열 님 (jb7959)
+- 박찬엽 님 (mrchypark) 
 
 
 #### 맹개발 <http://maengdev.tistory.com/166>
