@@ -164,6 +164,11 @@
 - GOPAX API Doc <https://gopaxapi.github.io/gopax/> 고팍스가 유일하게 Github을 통해서 Python을 공식 지원하고 있습니다. 
 - 코인원 API Doc <http://doc.coinone.co.kr/>
 - 빗썸 API Doc <https://www.bithumb.com/u1/US127>
+- 코빗 API Doc <https://apidocs.korbit.co.kr/ko/>
+    - python 패키지 <https://github.com/HoonJin/korbit-python>
+    - php code <https://github.com/yks118/Korbit-api-php>
+- 업비트 API Doc <https://docs.upbit.com/>
+    - ubci R 패키지 <https://cran.r-project.org/web/packages/ubci/index.html>
 - 파이썬으로 배우는 알고리즘 트레이딩 <https://wikidocs.net/book/110>
 
 #### 참고문헌 및 자료 @작업중
