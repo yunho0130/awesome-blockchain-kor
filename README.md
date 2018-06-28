@@ -138,7 +138,7 @@
     - Nothing-at-Stake: 네트워크상에 두 개 이상의 포크가 있을 경우, 양쪽에 동시에 베팅하는 것. PoS의 경우 자산 증명의 한계 비용이 없기 때문에 가능한 일. 이더리움은 디포짓과 패널티를 통해 해결하려 하고 있음.
     - [스마트 컨트렉트 보안: 6개의 솔리디티 취약점 및 그에 대한 대비책 (파트 1)](https://medium.com/@ihcho131313/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%A0%89%ED%8A%B8-%EB%B3%B4%EC%95%88-6%EA%B0%9C%EC%9D%98-%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B0%8F-%EA%B7%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8C%80%EB%B9%84%EC%B1%85-%ED%8C%8C%ED%8A%B8-1-f4f32d19a558) 
     - 그 외의 취약점에 대한 레퍼런스 (출처: 온더) => <https://github.com/Onther-Tech/auditing-reference>
-    - [금융권 도입시 보안 고려사항, 출처: 금융보안원](media/%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%86%A8%E1%84%8E%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%87%E1%85%A9%E1%84%8B%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%A9%E1%84%85%E1%85%A7%E1%84%89%E1%85%A1%E1%84%92%E1%85%A1%E1%86%BC_vFN.pdf)
+    - [금융권 도입시 보안 고려사항, 출처: 금융보안원](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/media/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%20%EA%B8%B0%EC%88%A0%EA%B3%BC%20%EB%B3%B4%EC%95%88%20%EA%B3%A0%EB%A0%A4%EC%82%AC%ED%95%AD_vFN.pdf)
     - 맹개발의 개인적인 의견으로는, 비즈니스 로직을 구현한 뒤에 전문 보안감사(Security Audit)업체를 통해 취약성 검증하는 것을 추천함. Audit과정에서 개발팀의 기술적인 성숙도 노려볼 수 있을 것임. 
 
 * 트랜잭션이 느리고, 처리량이 모자라고, 수수료가 비쌀 때. 
@@ -154,8 +154,8 @@
     - 컴포져라는 접근성 좋은 툴, 기존 시스템과의 연동성, 다양한 개발 언어 지원(Go, Node.js, Java), 데이터 백업/복구, BaaS(Blockchain as a Service)로 빠른 개발 가능.
 * 비즈니스 네트워크 아카이브 (Business Network Archive, BNA)
     - 하이퍼레저 컴포저라는 개발툴을 통해 생성된 파일로 블록체인 망에 배포할 때 스마트 컨트랙트가 자동으로 생성(허강욱, 2018).
-* 하이퍼레저 컴포저 - 스마트 컨트랙트 => [1단계: 한글 Readme.md](/developerworks/BlockchainSmartContractTrading-CompositeJourney-master/README-ko.md)
-* 하이퍼레저 컴포저 - 상품 경매 네트워크 => [2단계: 한글 Readme.md](/developerworks/BlockchainNetwork-CompositeJourney-master/README-ko.md)
+* 하이퍼레저 컴포저 - 스마트 컨트랙트 => [1단계: 한글 Readme.md](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/hyperledger/developerworks/BlockchainNetwork-CompositeJourney-master/README-ko.md)
+* 하이퍼레저 컴포저 - 상품 경매 네트워크 => [2단계: 한글 Readme.md](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/hyperledger/developerworks/BlockchainSmartContractTrading-CompositeJourney-master/README-ko.md)
 * 하이퍼레져 패브릭 Python SDK => [fabric-sdk-py-master](/hyperledger/fabric-sdk-py-master/)
 - IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (DeveloperWorks 작성 예정)
 - Hyperledger Composer 사용하기 (DeveloperWorks 작성 예정)
