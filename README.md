@@ -161,7 +161,7 @@
 > Hyperledger Fabric V1.1을 활용한 Deployment 예시 (출처: DeveloperWorks)
 * 하이퍼레저 컴포저 - 스마트 컨트랙트 => [1단계: 한글 Readme.md](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/hyperledger/developerworks/BlockchainNetwork-CompositeJourney-master/README-ko.md)
 * 하이퍼레저 컴포저 - 상품 경매 네트워크 => [2단계: 한글 Readme.md](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/hyperledger/developerworks/BlockchainSmartContractTrading-CompositeJourney-master/README-ko.md)
-* 하이퍼레져 패브릭 Node.js 배포 및 SDK 만들기 => [한글 Readme.md](/hyperledger/Deployment-NodeSDK-master/README-ko.md)
+* 하이퍼레져 패브릭 Node.js 배포 및 SDK 만들기 => [한글 Readme.md](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/hyperledger/developerworks/Deployment-NodeSDK-master/README-ko.md)
 * 하이퍼레져 패브릭 Python SDK => [fabric-sdk-py-master](/hyperledger/fabric-sdk-py-master/)
 - IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (DeveloperWorks 작성 예정)
 - Hyperledger Composer 사용하기 (DeveloperWorks 작성 예정)
