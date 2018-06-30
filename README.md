@@ -94,6 +94,9 @@
 
 ## [개발자] 개발자를 위한 실제 구현 및 이슈
 
+#### (Optional) 윈도우 환경에서 파일 이름 길이 제한으로 인한 Git Clone 에러 대처법 
+```git config --system core.longpaths true``` [참고](https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows)
+
 #### 주로 사용되는 개념들 
 * [블록체인 기초개념] 컨센서스(Consensus)란 무엇인가? - PoW/PoS/DPoS 알아보기 => <https://steemit.com/kr/@donekim/consensus-pow-pos-dpos> 
     - PoW: 컴퓨팅 파워를 통해 블록체인 네트워크에 전송된 암호화된 거래정보를 푼 뒤, 새로운 블록을 체인에 연결하는 작업증명 방식
@@ -154,8 +157,11 @@
     - 컴포져라는 접근성 좋은 툴, 기존 시스템과의 연동성, 다양한 개발 언어 지원(Go, Node.js, Java), 데이터 백업/복구, BaaS(Blockchain as a Service)로 빠른 개발 가능.
 * 비즈니스 네트워크 아카이브 (Business Network Archive, BNA)
     - 하이퍼레저 컴포저라는 개발툴을 통해 생성된 파일로 블록체인 망에 배포할 때 스마트 컨트랙트가 자동으로 생성(허강욱, 2018).
+![](media/15303858888992.jpg)
+> Hyperledger Fabric V1.1을 활용한 Deployment 예시 (출처: DeveloperWorks)
 * 하이퍼레저 컴포저 - 스마트 컨트랙트 => [1단계: 한글 Readme.md](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/hyperledger/developerworks/BlockchainNetwork-CompositeJourney-master/README-ko.md)
 * 하이퍼레저 컴포저 - 상품 경매 네트워크 => [2단계: 한글 Readme.md](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/hyperledger/developerworks/BlockchainSmartContractTrading-CompositeJourney-master/README-ko.md)
+* 하이퍼레져 패브릭 Node.js 배포 및 SDK 만들기 => [한글 Readme.md](/hyperledger/Deployment-NodeSDK-master/README-ko.md)
 * 하이퍼레져 패브릭 Python SDK => [fabric-sdk-py-master](/hyperledger/fabric-sdk-py-master/)
 - IBM Cloud를 활용한 하이퍼레저 프로그래밍 시작하기 (DeveloperWorks 작성 예정)
 - Hyperledger Composer 사용하기 (DeveloperWorks 작성 예정)
@@ -187,12 +193,13 @@
 - 홍승환 님 (harrydrippin) 
 - 안재열 님 (jb7959)
 - 박찬엽 님 (mrchypark) 
-
+- 진영화 님 (jinyounghwa)
+- mingrammer 님
+- wooqii 님
 
 #### 맹개발 <http://maengdev.tistory.com/166>
 > 현재 IBM Watson Cognitive 엔지니어로 근무하고 있으며, 연세대학교 정보대학원에서 비즈니스 빅데이터 분석 석사과정을 전공했다. California에서 실시된 AutoDevBot 해커톤에서 비트코인 환율 체커를 안드로이드와 iOS용으로 제작하여 준우승하였으며, 카네기멜론 아시아 STEM Academy와 중앙대학교에서 Python을 강의했다. SK C&C, 한국과학기술정보연구원(KISTI), 한국연구재단(NRF), DBpia 등에서 프로젝트를 수행하였으며, 오픈소스 활동으로 Apache Zepplin, 양자컴퓨팅 Python SDK인 QISKIT에 기여했다. 최근에는 하이퍼레져와 ERC20간의 연동에 관심이 많다. 
 
 #### Disclaimer
 - 본 레파지토리는 몇몇의 블록체인 프로젝트들과 학습자료를 모아둔 곳입니다. 개인의 자격으로 운영되며 IBM과 관련이 없습니다. 또한, 본 레파지토리에 있는 코드를 사용할 경우 발생하는 모든 종류의  문제(기술적/보안적/법률적/etc)를 책임지지 않습니다. This repository is consist of several experimental blockchain project and learning materials. Not related to IBM. It's personal repository. So I have no responsibility for using this code about all kind of problems such as technical/security/legal/etc. 
-
 

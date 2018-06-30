@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+.vscode
+.idea
+.env
+.env.sample
+npm-debug.log
+.jshintignore
+.jshintrc
+.npmrc
+bin
+dist
+certs
+channel.tx

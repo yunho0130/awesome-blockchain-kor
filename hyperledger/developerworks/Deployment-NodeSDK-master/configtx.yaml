@@ -1,0 +1,53 @@
+---
+Profiles:
+  TwoOrgsGenesis:
+    Orderer:
+      <<: *OrdererDefaults
+      Organizations:
+      - *OrdererOrg
+    Consortiums:
+      FitCoinConsortium:
+        Organizations:
+        - *ShopOrg
+        - *FitCoinOrg
+  TwoOrgsChannel:
+    Consortium: FitCoinConsortium
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+      - *ShopOrg
+      - *FitCoinOrg
+
+Organizations:
+- &OrdererOrg
+  Name: OrdererOrg
+  ID: OrdererMSP
+  MSPDir: cli/peers/ordererOrganizations/orderer-org/msp
+- &ShopOrg
+  Name: ShopOrgMSP
+  ID: ShopOrgMSP
+  MSPDir: cli/peers/peerOrganizations/shop-org/msp
+  AnchorPeers:
+  - Host: shop-peer
+    Port: 7051
+- &FitCoinOrg
+  Name: FitCoinOrgMSP
+  ID: FitCoinOrgMSP
+  MSPDir: cli/peers/peerOrganizations/fitcoin-org/msp
+  AnchorPeers:
+  - Host: fitcoin-peer
+    Port: 7051
+
+Orderer: &OrdererDefaults
+  OrdererType: solo
+  Addresses:
+  - orderer0:7050
+  BatchTimeout: 2s
+  BatchSize:
+    MaxMessageCount: 10
+    AbsoluteMaxBytes: 99 MB
+    PreferredMaxBytes: 512 KB
+  Organizations:
+
+Application: &ApplicationDefaults
+  Organizations:

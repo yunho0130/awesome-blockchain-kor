@@ -1,0 +1,152 @@
+version: "3.1"
+
+services:
+  shop-ca:
+    container_name: shop-ca
+    image: shop-ca
+    environment:
+      - FABRIC_CA_HOME=/ca
+    command: fabric-ca-server start
+    ports:
+      - 7054:7054
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "10"
+
+  fitcoin-ca:
+    container_name: fitcoin-ca
+    image: fitcoin-ca
+    environment:
+      - FABRIC_CA_HOME=/ca
+    command: fabric-ca-server start
+    ports:
+      - 8054:7054
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "10"
+
+  orderer0:
+    container_name: orderer0
+    image: orderer-peer
+    environment:
+      - ORDERER_GENERAL_LOGLEVEL=debug
+      - ORDERER_GENERAL_LISTENADDRESS=0.0.0.0
+      - ORDERER_GENERAL_GENESISMETHOD=file
+      - ORDERER_GENERAL_GENESISFILE=/orderer/crypto/genesis.block
+      - ORDERER_GENERAL_LOCALMSPID=OrdererMSP
+      - ORDERER_GENERAL_LOCALMSPDIR=/orderer/crypto/msp
+      - ORDERER_GENERAL_TLS_ENABLED=true
+      - ORDERER_GENERAL_TLS_PRIVATEKEY=/orderer/crypto/tls/server.key
+      - ORDERER_GENERAL_TLS_CERTIFICATE=/orderer/crypto/tls/server.crt
+      - ORDERER_GENERAL_TLS_ROOTCAS=[/orderer/crypto/tls/ca.crt]
+    working_dir: /orderer
+    command: orderer
+    ports:
+    - 7050:7050
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "10"
+
+  shop-peer:
+    container_name: shop-peer
+    image: shop-peer
+    environment:
+      - CORE_PEER_ID=shop-peer
+      - CORE_PEER_ADDRESS=shop-peer:7051
+      - CORE_PEER_GOSSIP_EXTERNALENDPOINT=shop-peer:7051
+      - CORE_PEER_LOCALMSPID=ShopOrgMSP
+      - CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+      - CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE=fitcoin_default
+      - CORE_LOGGING_LEVEL=DEBUG
+      - CORE_PEER_TLS_ENABLED=true
+      - CORE_PEER_ENDORSER_ENABLED=true
+      - CORE_PEER_GOSSIP_USELEADERELECTION=true
+      - CORE_PEER_GOSSIP_ORGLEADER=false
+      - CORE_PEER_PROFILE_ENABLED=true
+      - CORE_PEER_MSPCONFIGPATH=/peer/crypto/msp
+      - CORE_PEER_TLS_CERT_FILE=/peer/crypto/tls/server.crt
+      - CORE_PEER_TLS_KEY_FILE=/peer/crypto/tls/server.key
+      - CORE_PEER_TLS_ROOTCERT_FILE=/peer/crypto/tls/ca.crt
+    working_dir: /peer
+    command: peer node start
+    volumes:
+    - /var/run/:/host/var/run/
+    ports:
+    - 7051:7051
+    - 7053:7053
+    depends_on:
+    - orderer0
+    - shop-ca
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "10"
+
+  fitcoin-peer:
+    container_name: fitcoin-peer
+    image: fitcoin-peer
+    environment:
+      - CORE_PEER_ID=fitcoin-peer
+      - CORE_PEER_ADDRESS=fitcoin-peer:7051
+      - CORE_PEER_GOSSIP_EXTERNALENDPOINT=fitcoin-peer:7051
+      - CORE_PEER_LOCALMSPID=FitCoinOrgMSP
+      - CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+      - CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE=fitcoin_default
+      - CORE_LOGGING_LEVEL=DEBUG
+      - CORE_PEER_TLS_ENABLED=true
+      - CORE_PEER_ENDORSER_ENABLED=true
+      - CORE_PEER_GOSSIP_USELEADERELECTION=true
+      - CORE_PEER_GOSSIP_ORGLEADER=false
+      - CORE_PEER_PROFILE_ENABLED=true
+      - CORE_PEER_MSPCONFIGPATH=/peer/crypto/msp
+      - CORE_PEER_TLS_CERT_FILE=/peer/crypto/tls/server.crt
+      - CORE_PEER_TLS_KEY_FILE=/peer/crypto/tls/server.key
+      - CORE_PEER_TLS_ROOTCERT_FILE=/peer/crypto/tls/ca.crt
+    working_dir: /peer
+    command: peer node start
+    volumes:
+      - /var/run/:/host/var/run/
+    ports:
+      - 8051:7051
+      - 8053:7053
+    depends_on:
+      - orderer0
+      - fitcoin-ca
+      - shop-peer
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "10"
+
+  blockchain-setup :
+    container_name: blockchain-setup
+    image: blockchain-setup
+    environment:
+    - DOCKER_SOCKET_PATH=/host/var/run/docker.sock
+    - DOCKER_CCENV_IMAGE=hyperledger/fabric-ccenv:x86_64-1.1.0
+    - SECRETSDIR=/run/secrets
+    volumes:
+    - /var/run/:/host/var/run/
+    depends_on:
+    - orderer0
+    - shop-ca
+    - shop-peer
+    - fitcoin-ca
+    - fitcoin-peer
+    secrets:
+      - config
+      - channel
+
+secrets:
+  config:
+    file: ./configuration/config.json
+  channel:
+    file: ./configuration/channel.tx

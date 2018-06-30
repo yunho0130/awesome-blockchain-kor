@@ -1,0 +1,26 @@
+OrdererOrgs:
+- Name: OrdererOrg
+  Domain: orderer-org
+  CommonName: orderer-org
+  Specs:
+  - Hostname: orderer0
+    CommonName: "{{.Hostname}}"
+PeerOrgs:
+- Name: ShopOrg
+  Domain: shop-org
+  Specs:
+  - Hostname: shop-peer
+    CommonName: "{{.Hostname}}"
+  Template:
+    Count: 2
+  Users:
+    Count: 1
+- Name: FitCoinOrg
+  Domain: fitcoin-org
+  Specs:
+  - Hostname: fitcoin-peer
+    CommonName: "{{.Hostname}}"
+  Template:
+    Count: 2
+  Users:
+    Count: 1

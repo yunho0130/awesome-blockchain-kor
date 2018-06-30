@@ -1,0 +1,29 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Setup Blockchain for fitcoin network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "events": "^1.1.1",
+    "fabric-ca-client": "^1.0.4",
+    "fabric-client": "^1.0.4",
+    "fs": "0.0.1-security",
+    "fs-extra": "^5.0.0",
+    "grpc": "^1.8.0",
+    "http": "0.0.0",
+    "json-style-converter": "^1.0.3",
+    "long": "^3.2.0",
+    "nano": "^6.4.2",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "util": "^0.10.3"
+  }
+}
