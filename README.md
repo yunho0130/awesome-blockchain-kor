@@ -18,7 +18,10 @@
 > 출처: Unsplash (Free use)
 
 #### 배경지식  
-- [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐의 이해 => [reading-blockchain-via-desire](media/reading-blockchain-via-desire.md)    
+- [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐의 이해 => [reading-blockchain-via-desire](media/reading-blockchain-via-desire.md)
+- 5분만에 이해하는 블록체인의 원리
+    - <https://brunch.co.kr/@bumgeunsong/50>
+    - <https://brunch.co.kr/@bumgeunsong/51>
 #### ICO 참여하기 
 - 진행중인 ICO 찾아보기 => <https://steemkr.com/coinkorea/@tyami/3-ico-1-ico>
 - 블록체인 관련 기본 사이트 <https://steemit.com/kr/@yoon/3f8ty8>
@@ -151,6 +154,7 @@
 블록체인 => <https://steemit.com/kr-dev/@modolee/onchain-offchain>
     - PBTF([Practical-Byzantine-Fault-Tolerance](media/Practical-Byzantine-Fault-Tolerance.pdf))란? 고속트랜잭션 처리를 위해 설계되어 초당 수천만 건의 트랜잭션을 처리할 수 있다(김용재 등, 2018). 현재 it chain 등에서 활용. 
     - 플라즈마(Plasma), 라이덴(Raiden) 그리고 샤딩(Sharding) => <https://cryptokiwi.kr/currency?id=eth&category=2&content_id=227>
+    - 블록체인 확장성 솔루션 시리즈: 플라즈마(Plasma)시리즈 => <https://medium.com/decipher-media/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%99%95%EC%9E%A5%EC%84%B1-%EC%86%94%EB%A3%A8%EC%85%98-%EC%8B%9C%EB%A6%AC%EC%A6%88-2-1-plasma-overview-7e6875f4c20d>
 
 #### 하이퍼레저 프로그래밍 (Hyperledger Fabric & composer)
 ![](media/15282706026711.png)
