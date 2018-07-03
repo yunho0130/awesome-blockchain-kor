@@ -124,6 +124,8 @@
     - ERC20 기반 토큰 생성 코드: 최소 기능 버전 MVP(Minimum Viable Product) => <https://github.com/yunho0130/awesome-blockchain-kor/blob/master/ethereum-token-v0.1/generate-token.sol>
     - ERC20 기반 토큰 생성 코드: 보다 완성된 버전(More Complete) 코드 => <https://github.com/yunho0130/awesome-blockchain-kor/blob/master/ethereum-token-v0.1/generate-token-complete.sol>
 
+* Solidity의 재밌는 학습을 위한 사이트 CryptoZombie <https://cryptozombies.io/ko/>
+
 * 유윤재님의 Solidity 튜토리얼 시리즈 (truffle + zeppelin-solidity을 이용한 크라우드 세일 계약)        
     - <https://medium.com/dnext-post/solidity-tutorial-1-252c9edf2f84>
     - <https://medium.com/dnext-post/solidity-tutorial-2-e26a57c8fdd1>
@@ -132,8 +134,8 @@
     - <https://medium.com/dnext-post/solidity-tutorial-5-85dfe51dcd54>
     - <https://medium.com/dnext-post/solidity-tutorial-6-543bd342d928>
     
-* Solidity의 재밌는 학습을 위한 사이트 CryptoZombie <https://cryptozombies.io/ko/>
-
+* Udemy Solidity 온라인 강의 (영문, 유료) MOOC: [10$ 쿠폰](https://dealsea.com/view/udemy.com) => [기초 개념](https://www.udemy.com/blockchain-and-bitcoin-fundamentals/) =>  [Solidity](https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide)
+    
 * 이더리움 ERC20 취약점(ethereum-ERC20-vulnerability)
     - 기본적인 Overflow/Underflow 취약점 (safemath 사용 권장)
         - 이더리움 공식 홈페이지에서 제공하는 ERC20 소스코드 중 `transfer` 기능에 사용하는 경우 Overflow/Underflow 결함이 발견. 이로 인해 ERC20 코인들 중, 본 결함으로 인해 손실된 금액은 약 300만 달러(2017년 12월 27일 기준). 
@@ -178,11 +180,6 @@
 - 코인원 API Doc <http://doc.coinone.co.kr/>
 - 해외 거의 모든 거래소 Python 트레이딩 라이브러리 (영문) => [Readme.md](/quant-trading/ccxt-master/README.md)
 - 파이썬으로 배우는 알고리즘 트레이딩 <https://wikidocs.net/book/110>
-
-#### On-Line MOOC courses 
-- Blockchain and Bitcoin Fundametals <https://www.udemy.com/blockchain-and-bitcoin-fundamentals/>
-- Ethereum and Solidity : The Complete Developer's Guide <https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide>
-- To get the 10$ Udemy coupon <https://dealsea.com/view/udemy.com>
 
 #### 참고문헌 및 자료 @작업중
 - Alex Park(2018), 거래소 해킹 시 보상 가능 여부에 대한 토큰 컨트랙트 코드 분석, Medium
