@@ -179,6 +179,11 @@
 - 해외 거의 모든 거래소 Python 트레이딩 라이브러리 (영문) => [Readme.md](/quant-trading/ccxt-master/README.md)
 - 파이썬으로 배우는 알고리즘 트레이딩 <https://wikidocs.net/book/110>
 
+#### On-Line MOOC courses 
+- Blockchain and Bitcoin Fundametals <https://www.udemy.com/blockchain-and-bitcoin-fundamentals/>
+- Ethereum and Solidity : The Complete Developer's Guide <https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide>
+- To get the 10$ Udemy coupon <https://dealsea.com/view/udemy.com>
+
 #### 참고문헌 및 자료 @작업중
 - Alex Park(2018), 거래소 해킹 시 보상 가능 여부에 대한 토큰 컨트랙트 코드 분석, Medium
 - Castro, M., & Liskov, B. (1999). Practical Byzantine fault tolerance. In OSDI (Vol. 99, pp. 173-186).
