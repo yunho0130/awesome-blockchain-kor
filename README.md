@@ -146,7 +146,7 @@
     - [스마트 컨트렉트 보안: 6개의 솔리디티 취약점 및 그에 대한 대비책 (파트 1)](https://medium.com/@ihcho131313/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%A0%89%ED%8A%B8-%EB%B3%B4%EC%95%88-6%EA%B0%9C%EC%9D%98-%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B0%8F-%EA%B7%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8C%80%EB%B9%84%EC%B1%85-%ED%8C%8C%ED%8A%B8-1-f4f32d19a558) 
     - 그 외의 취약점에 대한 레퍼런스 (출처: 온더) => <https://github.com/Onther-Tech/auditing-reference>
     - [금융권 도입시 보안 고려사항, 출처: 금융보안원](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/media/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%20%EA%B8%B0%EC%88%A0%EA%B3%BC%20%EB%B3%B4%EC%95%88%20%EA%B3%A0%EB%A0%A4%EC%82%AC%ED%95%AD_vFN.pdf)
-    - 개인적인 의견으로는, 비즈니스 로직을 구현한 뒤에 전문 보안감사(Security Audit)업체를 통해 취약성 검증하는 것을 추천함. Audit과정에서 개발팀의 기술적인 성숙도 노려볼 수 있을 것임. 
+    - 개인적인 의견으로는, 비즈니스 로직을 구현한 뒤에 전문 보안감사(Security Audit)업체를 통해 취약성 검증하는 것을 추천함. Audit과정에서 개발팀의 기술적인 성숙도 노려볼 수 있을 것임. 그럴 환경이 안된다면, [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-solidity)을 상속받아 사용하는 걸 추천. 
 
 * 트랜잭션이 느리고, 처리량이 모자라고, 수수료가 비쌀 때. 
     - 온 체인 트랜잭션, 오프 체인 트랜잭션, 사이드 체인, 차일드 체인, 지불 채널, 인터체인
