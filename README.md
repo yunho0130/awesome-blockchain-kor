@@ -19,9 +19,8 @@
 
 #### 배경지식  
 - [컬럼] 욕망으로 읽어보는 블록체인: 코인과 화폐의 이해 => [reading-blockchain-via-desire](media/reading-blockchain-via-desire.md)
-- 5분만에 이해하는 블록체인의 원리
-    - <https://brunch.co.kr/@bumgeunsong/50>
-    - <https://brunch.co.kr/@bumgeunsong/51>
+- 비유로 이해하는 블록체인의 원리 => [1편](https://brunch.co.kr/@bumgeunsong/50), [2편](https://brunch.co.kr/@bumgeunsong/51)
+
 #### ICO 참여하기 
 - 진행중인 ICO 찾아보기 => <https://steemkr.com/coinkorea/@tyami/3-ico-1-ico>
 - 블록체인 관련 기본 사이트 <https://steemit.com/kr/@yoon/3f8ty8>
@@ -147,14 +146,14 @@
     - [스마트 컨트렉트 보안: 6개의 솔리디티 취약점 및 그에 대한 대비책 (파트 1)](https://medium.com/@ihcho131313/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%A0%89%ED%8A%B8-%EB%B3%B4%EC%95%88-6%EA%B0%9C%EC%9D%98-%EC%86%94%EB%A6%AC%EB%94%94%ED%8B%B0-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B0%8F-%EA%B7%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8C%80%EB%B9%84%EC%B1%85-%ED%8C%8C%ED%8A%B8-1-f4f32d19a558) 
     - 그 외의 취약점에 대한 레퍼런스 (출처: 온더) => <https://github.com/Onther-Tech/auditing-reference>
     - [금융권 도입시 보안 고려사항, 출처: 금융보안원](https://github.com/yunho0130/awesome-blockchain-kor/blob/master/media/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%20%EA%B8%B0%EC%88%A0%EA%B3%BC%20%EB%B3%B4%EC%95%88%20%EA%B3%A0%EB%A0%A4%EC%82%AC%ED%95%AD_vFN.pdf)
-    - 맹개발의 개인적인 의견으로는, 비즈니스 로직을 구현한 뒤에 전문 보안감사(Security Audit)업체를 통해 취약성 검증하는 것을 추천함. Audit과정에서 개발팀의 기술적인 성숙도 노려볼 수 있을 것임. 
+    - 개인적인 의견으로는, 비즈니스 로직을 구현한 뒤에 전문 보안감사(Security Audit)업체를 통해 취약성 검증하는 것을 추천함. Audit과정에서 개발팀의 기술적인 성숙도 노려볼 수 있을 것임. 
 
 * 트랜잭션이 느리고, 처리량이 모자라고, 수수료가 비쌀 때. 
     - 온 체인 트랜잭션, 오프 체인 트랜잭션, 사이드 체인, 차일드 체인, 지불 채널, 인터체인
 블록체인 => <https://steemit.com/kr-dev/@modolee/onchain-offchain>
     - PBTF([Practical-Byzantine-Fault-Tolerance](media/Practical-Byzantine-Fault-Tolerance.pdf))란? 고속트랜잭션 처리를 위해 설계되어 초당 수천만 건의 트랜잭션을 처리할 수 있다(김용재 등, 2018). 현재 it chain 등에서 활용. 
     - 플라즈마(Plasma), 라이덴(Raiden) 그리고 샤딩(Sharding) => <https://cryptokiwi.kr/currency?id=eth&category=2&content_id=227>
-    - 블록체인 확장성 솔루션 시리즈: 플라즈마(Plasma)시리즈 => <https://medium.com/decipher-media/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%99%95%EC%9E%A5%EC%84%B1-%EC%86%94%EB%A3%A8%EC%85%98-%EC%8B%9C%EB%A6%AC%EC%A6%88-2-1-plasma-overview-7e6875f4c20d>
+    - 블록체인 확장성 솔루션 시리즈: 플라즈마(Plasma)시리즈 => [Medium 링크](https://medium.com/decipher-media/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%99%95%EC%9E%A5%EC%84%B1-%EC%86%94%EB%A3%A8%EC%85%98-%EC%8B%9C%EB%A6%AC%EC%A6%88-2-1-plasma-overview-7e6875f4c20d)
 
 #### 하이퍼레저 프로그래밍 (Hyperledger Fabric & composer)
 ![](media/15282706026711.png)
