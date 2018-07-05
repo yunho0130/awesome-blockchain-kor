@@ -193,15 +193,8 @@
 - 김용재, 유동균, 이준범 등(2018), 나만의 프라이빗 블록체인 it-chain, 마이크로 소프트웨어: 체인빅뱅, 392호
 - 허강욱(2018), 하이퍼레저 패브릭, 마이크로 소프트웨어: 체인빅뱅, 392호
 
-#### Contributors 
-
-- 홍승환 님 (harrydrippin) 
-- 안재열 님 (jb7959)
-- 박찬엽 님 (mrchypark) 
-- 진영화 님 (jinyounghwa)
-- mingrammer 님
-- wooqii 님
-- weyoui 님
+#### 🌟	Contributors 
+- 홍승환 님 (harrydrippin), 안재열 님 (jb7959), 박찬엽 님 (mrchypark), 진영화 님 (jinyounghwa), mingrammer 님, wooqii 님, weyoui 님, jb7959 님
 
 #### 맹개발 <http://maengdev.tistory.com/166>
 > 현재 IBM Watson Cognitive 엔지니어로 근무하고 있으며, 연세대학교 정보대학원에서 비즈니스 빅데이터 분석 석사과정을 전공했다. California에서 실시된 AutoDevBot 해커톤에서 비트코인 환율 체커를 안드로이드와 iOS용으로 제작하여 준우승하였으며, 카네기멜론 아시아 STEM Academy와 중앙대학교에서 Python을 강의했다. SK C&C, 한국과학기술정보연구원(KISTI), 한국연구재단(NRF), DBpia 등에서 프로젝트를 수행하였으며, 오픈소스 활동으로 Apache Zepplin, 양자컴퓨팅 Python SDK인 QISKIT에 기여했다. 최근에는 하이퍼레져와 ERC20간의 연동에 관심이 많다. 
