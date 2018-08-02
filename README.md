@@ -1,4 +1,6 @@
 # Awesome Blockchain Kor - 모두를 위한 블록체인
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 > 사람들에게 블록체인에 대한 이해도를 높이고 사기(SCAM)를 막고자 본 레파지토리를 공개했습니다. 
 >
 > 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 [Project](https://github.com/yunho0130/awesome-blockchain-kor/projects/1)탭에 작성해두었습니다. Pull Request는 언제든지 환영합니다.
