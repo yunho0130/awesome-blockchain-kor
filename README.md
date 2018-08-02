@@ -1,6 +1,5 @@
 # Awesome Blockchain Kor - 모두를 위한 블록체인
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Hyperledger-fabric](https://img.shields.io/badge/Hyperledger%20Fabric-v1.0%20or%20higher-blue.svg) ![Solidity](https://img.shields.io/badge/Solidity-v0.4.20-yellow.svg) ![Truffle](https://img.shields.io/badge/Truffle-v1.0-violet.svg) ![Node.js](https://img.shields.io/badge/Node.js-v6.2.0-green.svg) ![Docker](https://img.shields.io/badge/Docker-v1.13%20or%20higher-blue.svg) ![Docker-compose](https://img.shields.io/badge/Docker%20Compose-v1.8%20or%20higher-lightgrey.svg) 
 > 사람들에게 블록체인에 대한 이해도를 높이고 사기(SCAM)를 막고자 본 레파지토리를 공개했습니다. 
 >
 > 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 [Project](https://github.com/yunho0130/awesome-blockchain-kor/projects/1)탭에 작성해두었습니다. Pull Request는 언제든지 환영합니다.
