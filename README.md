@@ -202,9 +202,7 @@
 
 #### 후원하기 
 - 본 레파지토리는 특정 기업의 후원이나 이익을 위해 만들어지지 않았습니다. 지속적으로 컨텐츠가 업데이트 될 수 있도록 힘을 실어주세요.   
-- ETH Wallet **0x71873636183518cba68CeF6d3288fBA54bC3Ce4a
-**  
-![](media/ETH_Wallet_QRcode.png)
+- 이더리움 후원 주소 ETH Wallet Address  `0x71873636183518cba68CeF6d3288fBA54bC3Ce4a` 
 
 #### Disclaimer
 - 본 레파지토리는 몇몇의 블록체인 프로젝트들과 학습자료를 모아둔 곳입니다. 개인의 자격으로 운영되며 IBM과 관련이 없습니다. 또한, 본 레파지토리에 있는 코드를 사용할 경우 발생하는 모든 종류의  문제(기술적/보안적/법률적/etc)를 책임지지 않습니다. This repository is consist of several experimental blockchain project and learning materials. Not related to IBM. It's personal repository. So I have no responsibility for using this code about all kind of problems such as technical/security/legal/etc. 
