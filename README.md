@@ -156,6 +156,11 @@
     - 플라즈마(Plasma), 라이덴(Raiden) 그리고 샤딩(Sharding) => <https://cryptokiwi.kr/currency?id=eth&category=2&content_id=227>
     - 블록체인 확장성 솔루션 시리즈: 플라즈마(Plasma)시리즈 => [Medium 링크](https://medium.com/decipher-media/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%99%95%EC%9E%A5%EC%84%B1-%EC%86%94%EB%A3%A8%EC%85%98-%EC%8B%9C%EB%A6%AC%EC%A6%88-2-1-plasma-overview-7e6875f4c20d)
 
+#### 프라이빗 이더리움 네트워크 
+
+* 마이크로 소프트 Azure 템플릿 설정 코드  
+ <https://github.com/yunho0130/awesome-blockchain-kor/tree/master/ethereum-private/MS-Azure-Template>
+
 #### 하이퍼레저 프로그래밍 (Hyperledger Fabric & composer)
 ![](media/15282706026711.png)
 
