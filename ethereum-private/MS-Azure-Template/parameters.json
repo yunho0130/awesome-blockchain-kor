@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "namePrefix": {
+            "value": "eth"
+        },
+        "isJoiningExistingNetwork": {
+            "value": false
+        },
+        "isConsortiumNetwork": {
+            "value": false
+        },
+        "regionCount": {
+            "value": 1
+        },
+        "location_1": {
+            "value": "eastus"
+        },
+        "authType": {
+            "value": "password"
+        },
+        "adminUsername": {
+            "value": "maengdev"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "ethereumNetworkID": {
+            "value": 10101010
+        },
+        "consortiumMemberId": {
+            "value": 0
+        },
+        "ethereumAccountPsswd": {
+            "value": null
+        },
+        "ethereumAccountPassphrase": {
+            "value": null
+        },
+        "numMiningNodesRegion": {
+            "value": 2
+        },
+        "mnNodeVMSize": {
+            "value": "Standard_D1_v2"
+        },
+        "mnStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "numTXNodesRegion": {
+            "value": 1
+        },
+        "txNodeVMSize": {
+            "value": "Standard_D1_v2"
+        },
+        "txStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "omsDeploy": {
+            "value": true
+        },
+        "omsLocation": {
+            "value": "eastus"
+        }
+    }
+}
