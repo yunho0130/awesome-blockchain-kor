@@ -1,12 +1,10 @@
 # Awesome Blockchain Kor - 모두를 위한 블록체인
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Hyperledger-fabric](https://img.shields.io/badge/Hyperledger%20Fabric-v1.0%20or%20higher-blue.svg) ![Solidity](https://img.shields.io/badge/Solidity-v0.4.20-yellow.svg) ![Truffle](https://img.shields.io/badge/Truffle-v1.0-violet.svg) ![Node.js](https://img.shields.io/badge/Node.js-v6.2.0-green.svg) ![Docker](https://img.shields.io/badge/Docker-v1.13%20or%20higher-blue.svg) ![Docker-compose](https://img.shields.io/badge/Docker%20Compose-v1.8%20or%20higher-lightgrey.svg) 
-> 사람들에게 블록체인에 대한 이해도를 높이고 사기(SCAM)를 막고자 본 레파지토리를 공개했습니다. 
+> 사람들에게 블록체인에 대한 이해도를 높이고 사기(SCAM)를 막고자 본 레파지토리를 공개했습니다. 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 [Project](https://github.com/yunho0130/awesome-blockchain-kor/projects/1)탭에 작성해두었습니다. Pull Request는 언제든지 환영합니다. 지식에 대한 접근성 향상을 위해 되도록 한글 자료를 중심으로 모았습니다. 그럼에도 불구하고, 꼭 언급해야할 자료가 영문일 경우에는 요약 설명을 추가했습니다. Pull Request를 주실 때, 이 점을 고려해주세요.  
 >
-> 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 [Project](https://github.com/yunho0130/awesome-blockchain-kor/projects/1)탭에 작성해두었습니다. Pull Request는 언제든지 환영합니다.
->
-> 지식에 대한 접근성 향상을 위해 되도록 한글 자료를 중심으로 모았습니다. 그럼에도 불구하고, 꼭 언급해야할 자료가 영문일 경우에는 요약 설명을 추가했습니다. Pull Request를 주실 때, 이 점을 고려해주세요. 
->
-> **Star와 Follow는 개발자를 춤추게 합니다. 더 빠른 업데이트와 양질의 자료를 원하신다면 꼭 눌러주세요.**
+> **Star와 Follow는 개발자를 춤추게 합니다. 이 자료가 마음에 드셨다면 꼭 눌러주세요. 감사합니다.**  
+
+![http://www.yes24.com/Product/Goods/69279313](./media/bookcover_hyperledger_fabric.jpg) ![http://www.yes24.com/Product/Goods/69751266](./media/bookcover_art_of_blockchain.jpeg)
 
 ## 목차 (Table of Contents)
 
@@ -40,15 +38,6 @@
     - 마이이더월렛 사용시 gwei 설정하는 법 => <https://steemit.com/kr/@kanghamin/gwei>
 - 하드포크와 소프트 포크 => <https://tokenpost.kr/terms/11579>
 - 에어드랍(Airdrop)과 스냅샷(Snapshot) => <https://tokenpost.kr/terms/11567>
-    
-#### ICO 한글 백서 모음 
-- 추가나 업데이트를 원하시면 Pull Request 주세요.
-
-| 프로젝트 명 | URL | 요약 | 백서 |
-| :-----------: | :-----------: | :-----------: | :-----------: |
-| 모스랜드 | <https://moss.land> | 위치기반 증강현실 모바일게임에 블록체인 적용 | [백서](/whitepapers/mossland/Mossland+Whitepaper+-+KOR.pdf) |
-| 베리드 Berith | <https://www.berith.co> | POA 기반의 암호화폐 통합 및 지불결제 서비스 플랫폼 | [백서](/whitepapers/berith/BERITH_WhitePaper.pdf)
-| 피블 Pibble | <https://www.pibble.io> | 이미지 기반 SNS 및 저작권 관리  | [백서](/whitepapers/pibble/PIBBLE_Whitepaper_KR_1.4.pdf)
     
 #### 해킹과 보안 그리고 스캠
 - 하드웨어 지갑 => <https://steemit.com/kr/@twinbraid/538vxn-2>
@@ -190,7 +179,7 @@
 - 해외 거의 모든 거래소 Python 트레이딩 라이브러리 (영문) => [Readme.md](/quant-trading/ccxt-master/README.md)
 - 파이썬으로 배우는 알고리즘 트레이딩 <https://wikidocs.net/book/110>
 
-#### 참고문헌 및 자료 @작업중
+#### 참고문헌 및 자료
 - Alex Park(2018), 거래소 해킹 시 보상 가능 여부에 대한 토큰 컨트랙트 코드 분석, Medium
 - Castro, M., & Liskov, B. (1999). Practical Byzantine fault tolerance. In OSDI (Vol. 99, pp. 173-186).
 - Li, J., & Mann, W. (2018). Initial coin offering and platform building.
@@ -204,10 +193,6 @@
 
 #### 맹개발 <http://maengdev.tistory.com/166>
 > 현재 IBM Watson Cognitive 엔지니어로 근무하고 있으며, 연세대학교 정보대학원에서 비즈니스 빅데이터 분석 석사과정을 전공했다. California에서 실시된 AutoDevBot 해커톤에서 비트코인 환율 체커를 안드로이드와 iOS용으로 제작하여 준우승하였으며, 카네기멜론 아시아 STEM Academy와 중앙대학교에서 Python을 강의했다. SK C&C, 한국과학기술정보연구원(KISTI), 한국연구재단(NRF), DBpia 등에서 프로젝트를 수행하였으며, 오픈소스 활동으로 Apache Zepplin, 양자컴퓨팅 Python SDK인 QISKIT에 기여했다. 최근에는 하이퍼레져와 ERC20간의 연동에 관심이 많다. 
-
-#### 후원하기 
-- 본 레파지토리는 특정 기업의 후원이나 이익을 위해 만들어지지 않았습니다. 지속적으로 컨텐츠가 업데이트 될 수 있도록 힘을 실어주세요.   
-- 이더리움 후원 주소 ETH Wallet Address  `0x71873636183518cba68CeF6d3288fBA54bC3Ce4a` 
 
 #### Disclaimer
 - 본 레파지토리는 몇몇의 블록체인 프로젝트들과 학습자료를 모아둔 곳입니다. 개인의 자격으로 운영되며 IBM과 관련이 없습니다. 또한, 본 레파지토리에 있는 코드를 사용할 경우 발생하는 모든 종류의  문제(기술적/보안적/법률적/etc)를 책임지지 않습니다. This repository is consist of several experimental blockchain project and learning materials. Not related to IBM. It's personal repository. So I have no responsibility for using this code about all kind of problems such as technical/security/legal/etc. 
