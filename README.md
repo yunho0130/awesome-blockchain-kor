@@ -2,9 +2,9 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Hyperledger-fabric](https://img.shields.io/badge/Hyperledger%20Fabric-v1.0%20or%20higher-blue.svg) ![Solidity](https://img.shields.io/badge/Solidity-v0.4.20-yellow.svg) ![Truffle](https://img.shields.io/badge/Truffle-v1.0-violet.svg) ![Node.js](https://img.shields.io/badge/Node.js-v6.2.0-green.svg) ![Docker](https://img.shields.io/badge/Docker-v1.13%20or%20higher-blue.svg) ![Docker-compose](https://img.shields.io/badge/Docker%20Compose-v1.8%20or%20higher-lightgrey.svg) 
 > 사람들에게 블록체인에 대한 이해도를 높이고 사기(SCAM)를 막고자 본 레파지토리를 공개했습니다. 함께 만들어가는 Repository라 생각합니다. 작업하면서 앞으로 작업할 내용은 [Project](https://github.com/yunho0130/awesome-blockchain-kor/projects/1)탭에 작성해두었습니다. Pull Request는 언제든지 환영합니다. 지식에 대한 접근성 향상을 위해 되도록 한글 자료를 중심으로 모았습니다. 그럼에도 불구하고, 꼭 언급해야할 자료가 영문일 경우에는 요약 설명을 추가했습니다. Pull Request를 주실 때, 이 점을 고려해주세요.  
 >
-> **Star와 Follow는 개발자를 춤추게 합니다. 이 자료가 마음에 드셨다면 꼭 눌러주세요. 감사합니다.**  
+> **Star와 Follow는 개발자를 춤추게 합니다. 이 자료가 마음에 드셨다면 꼭 눌러주세요. 감사합니다.** 
 
-![http://www.yes24.com/Product/Goods/69279313](./media/bookcover_hyperledger_fabric.jpg) ![http://www.yes24.com/Product/Goods/69751266](./media/bookcover_art_of_blockchain.jpeg)
+[![hyperledger](./media/bookcover_hyperledger_fabric.jpg)](http://www.yes24.com/Product/Goods/69279313) [![art_of_blockchain](./media/bookcover_art_of_blockchain.jpeg)](http://www.yes24.com/Product/Goods/69751266)
 
 ## 목차 (Table of Contents)
 
