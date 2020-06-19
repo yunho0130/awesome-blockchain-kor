@@ -179,6 +179,33 @@
 - 해외 거의 모든 거래소 Python 트레이딩 라이브러리 (영문) => [Readme.md](/quant-trading/ccxt-master/README.md)
 - 파이썬으로 배우는 알고리즘 트레이딩 <https://wikidocs.net/book/110>
 
+### 인용 Citation
+본 레파지토리나 <하이퍼레저 블록체인 개발>, <블록체인의 정석>의 내용을 인용하실 때에는 아래의 인용정보를 사용하시면 편리합니다.
+
+### <하이퍼레저 블록체인 개발>
+```
+@book{development-hyperledger-fabric,
+  title={하이퍼레저 블록체인 개발 : 패브릭과 컴포저로 탈중앙화 앱 dApp 만들기},
+  author={가워니틴， 데로지에르뤼크， 라마크리슈나벤카트라만， 노보트니페트르， 바셋살만， 오다우드앤서니， 임지순(역)， 이대승(역)， 맹윤호(감수)},
+  isbn={9791162241462},
+  url={https://www.hanbit.co.kr/store/books/look.php?p_code=B4172582620},
+  year={2019},
+  publisher={한빛미디어}
+}
+```
+
+### <블록체인의 정석>
+```
+@book{the-art-of-Blockchain,
+  title={블록체인의 정석 The Art of Blockchain},
+  author={맹윤호},
+  isbn={9791187497202},
+  url={https://jiandson.co.kr/books/117},
+  year={2019},
+  publisher={지앤선}
+}
+```
+
 #### 참고문헌 및 자료
 - Alex Park(2018), 거래소 해킹 시 보상 가능 여부에 대한 토큰 컨트랙트 코드 분석, Medium
 - Castro, M., & Liskov, B. (1999). Practical Byzantine fault tolerance. In OSDI (Vol. 99, pp. 173-186).
