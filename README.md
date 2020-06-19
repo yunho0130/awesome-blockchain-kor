@@ -182,7 +182,7 @@
 ### 인용 Citation
 본 레파지토리나 <하이퍼레저 블록체인 개발>, <블록체인의 정석>의 내용을 인용하실 때에는 아래의 인용정보를 사용하시면 편리합니다.
 
-### <하이퍼레저 블록체인 개발>
+#### <하이퍼레저 블록체인 개발>
 ```
 @book{development-hyperledger-fabric,
   title={하이퍼레저 블록체인 개발 : 패브릭과 컴포저로 탈중앙화 앱 dApp 만들기},
@@ -194,7 +194,7 @@
 }
 ```
 
-### <블록체인의 정석>
+#### <블록체인의 정석>
 ```
 @book{the-art-of-Blockchain,
   title={블록체인의 정석 The Art of Blockchain},
@@ -218,8 +218,8 @@
 #### 🌟	Contributors 
 - 홍승환 님 (harrydrippin), 안재열 님 (jb7959), 박찬엽 님 (mrchypark), 진영화 님 (jinyounghwa), mingrammer 님, wooqii 님, weyoui 님
 
-#### 맹개발 <http://maengdev.tistory.com/166>
-> 현재 IBM Watson Cognitive 엔지니어로 근무하고 있으며, 연세대학교 정보대학원에서 비즈니스 빅데이터 분석 석사과정을 전공했다. California에서 실시된 AutoDevBot 해커톤에서 비트코인 환율 체커를 안드로이드와 iOS용으로 제작하여 준우승하였으며, 카네기멜론 아시아 STEM Academy와 중앙대학교에서 Python을 강의했다. SK C&C, 한국과학기술정보연구원(KISTI), 한국연구재단(NRF), DBpia 등에서 프로젝트를 수행하였으며, 오픈소스 활동으로 Apache Zepplin, 양자컴퓨팅 Python SDK인 QISKIT에 기여했다. 최근에는 하이퍼레져와 ERC20간의 연동에 관심이 많다. 
+#### 맹윤호 <https://www.linkedin.com/in/yunho0130/>  
+> 현재 IBM Data & AI 엔지니어로 근무하고 있으며, 연세대학교 정보대학원에서 비즈니스 빅데이터 분석 석사과정을 전공하고 동 대학원에서 박사과정에 재학중이다. California에서 실시된 AutoDevBot 해커톤에서 비트코인 환율 체커를 안드로이드와 iOS용으로 제작하여 준우승하였으며, 상명대학교, 중앙대학교에서 Python을 강의했다. SK C&C, 한국과학기술정보연구원(KISTI), 한국연구재단(NRF), DBpia 등에서 프로젝트를 수행하였으며, 오픈소스 활동으로 Apache Zepplin, 양자컴퓨팅 Python SDK인 QISKIT에 기여했다. 최근에는 퀀트 트레이딩에 관심이 많다. 
 
 #### Disclaimer
 - 본 레파지토리는 몇몇의 블록체인 프로젝트들과 학습자료를 모아둔 곳입니다. 개인의 자격으로 운영되며 IBM과 관련이 없습니다. 또한, 본 레파지토리에 있는 코드를 사용할 경우 발생하는 모든 종류의  문제(기술적/보안적/법률적/etc)를 책임지지 않습니다. This repository is consist of several experimental blockchain project and learning materials. Not related to IBM. It's personal repository. So I have no responsibility for using this code about all kind of problems such as technical/security/legal/etc. 
