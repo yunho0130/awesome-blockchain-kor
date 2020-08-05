@@ -943,6 +943,8 @@ class Exchange {
 
         $response_headers = array ();
 
+        ///// This code block is came from Stackoverflow: Author @gnif ////
+        // Reference https://stackoverflow.com/questions/9183178/can-php-curl-retrieve-response-headers-and-body-in-a-single-request/41135574#41135574
         // this function is called by curl for each header received
         curl_setopt ($this->curl, CURLOPT_HEADERFUNCTION,
             function ($curl, $header) use (&$response_headers) {
@@ -958,6 +960,7 @@ class Exchange {
                 return $length;
             }
         );
+        ///// This code block is came from Stackoverflow: Author @gnif ////
 
         // user-defined cURL options (if any)
         if (!empty($this->curl_options))
