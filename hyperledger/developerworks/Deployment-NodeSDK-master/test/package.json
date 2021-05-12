@@ -17,7 +17,7 @@
     "fabric-client": "latest",
     "fs": "0.0.1-security",
     "fs-extra": "^5.0.0",
-    "grpc": "^1.8.0",
+    "grpc": "^1.24.9",
     "http": "0.0.0",
     "json-style-converter": "^1.0.3",
     "long": "^3.2.0",
