@@ -144,6 +144,7 @@
     - PBTF([Practical-Byzantine-Fault-Tolerance](media/Practical-Byzantine-Fault-Tolerance.pdf))란? 고속트랜잭션 처리를 위해 설계되어 초당 수천만 건의 트랜잭션을 처리할 수 있다(김용재 등, 2018). 현재 it chain 등에서 활용. 
     - 플라즈마(Plasma), 라이덴(Raiden) 그리고 샤딩(Sharding) => <https://cryptokiwi.kr/currency?id=eth&category=2&content_id=227>
     - 블록체인 확장성 솔루션 시리즈: 플라즈마(Plasma)시리즈 => [Medium 링크](https://medium.com/decipher-media/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%99%95%EC%9E%A5%EC%84%B1-%EC%86%94%EB%A3%A8%EC%85%98-%EC%8B%9C%EB%A6%AC%EC%A6%88-2-1-plasma-overview-7e6875f4c20d)
+    - [SuperScalar](https://github.com/8144225309/SuperScalar) — 비트코인 라이트닝 네트워크 채널 팩토리 구현. N명의 사용자를 하나의 공유 UTXO에 온보딩. 소프트 포크 불필요. MuSig2, Taproot, 감시탑 지원.
 
 #### 프라이빗 이더리움 네트워크 
 
