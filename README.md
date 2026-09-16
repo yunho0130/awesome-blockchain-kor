@@ -178,6 +178,7 @@
 - 코인원 API Doc <http://doc.coinone.co.kr/>
 - 해외 거의 모든 거래소 Python 트레이딩 라이브러리 (영문) => [Readme.md](/quant-trading/ccxt-master/README.md)
 - 파이썬으로 배우는 알고리즘 트레이딩 <https://wikidocs.net/book/110>
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 ### 인용 Citation
 본 레파지토리나 <하이퍼레저 블록체인 개발>, <블록체인의 정석>의 내용을 인용하실 때에는 아래의 인용정보를 사용하시면 편리합니다.
